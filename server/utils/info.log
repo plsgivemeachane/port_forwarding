@@ -1,0 +1,1382 @@
+<2024-11-18 21:41:35> [info]: Client connected: pEYl30Bma_kJnwkJAAAB
+<2024-11-18 21:42:51> [info]: Client connected: gJfpn1hrVK6587wfAAAB
+<2024-11-18 21:42:52> [info]: Received Packet from client: {"PACKET_ID":"2","PACKET_DATA":{"ping":"1"}}
+<2024-11-18 21:42:52> [error]: Unknown packet id: 2
+<2024-11-18 21:45:39> [info]: Registered packet id: 1
+<2024-11-18 21:45:39> [info]: Registered packet id: 2
+<2024-11-18 21:46:00> [info]: Registered packet id: 1
+<2024-11-18 21:46:00> [info]: Registered packet id: 2
+<2024-11-18 21:46:15> [info]: Registered packet id: 1
+<2024-11-18 21:46:15> [info]: Registered packet id: 2
+<2024-11-18 21:46:28> [info]: Registered packet id: 1
+<2024-11-18 21:46:28> [info]: Registered packet id: 2
+<2024-11-18 21:46:33> [info]: Registered packet id: 1
+<2024-11-18 21:46:33> [info]: Registered packet id: 2
+<2024-11-18 21:46:37> [info]: Client connected: 4U_fRwAl7CrFk3ywAAAB
+<2024-11-18 21:46:38> [info]: Received Packet from client: {"PACKET_ID":"2","PACKET_DATA":{"ping":"1"}}
+<2024-11-18 21:46:38> [error]: Unknown packet id: 2
+<2024-11-18 21:47:01> [info]: Registered packet id: 1
+<2024-11-18 21:47:01> [info]: Registered packet id: 2
+<2024-11-18 21:47:11> [info]: Client connected: yh78eNiJ5TUPIiGeAAAB
+<2024-11-18 21:47:11> [info]: Received Packet from client: {"PACKET_ID":2,"PACKET_DATA":{"ping":1}}
+<2024-11-18 21:47:11> [info]: Packet ID: 2
+<2024-11-18 21:47:11> [info]: Packet Data: {"ping":1}
+<2024-11-18 21:48:07> [info]: Registered packet id: 1
+<2024-11-18 21:48:07> [info]: Registered packet id: 2
+<2024-11-18 21:48:10> [info]: Registered packet id: 1
+<2024-11-18 21:48:10> [info]: Registered packet id: 2
+<2024-11-18 21:48:14> [info]: Registered packet id: 1
+<2024-11-18 21:48:14> [info]: Registered packet id: 2
+<2024-11-18 21:48:18> [info]: Registered packet id: 1
+<2024-11-18 21:48:18> [info]: Registered packet id: 2
+<2024-11-18 21:48:24> [info]: Registered packet id: 1
+<2024-11-18 21:48:24> [info]: Registered packet id: 2
+<2024-11-18 21:48:25> [info]: Client connected: XrD0YuZhULuMfImLAAAB
+<2024-11-18 21:48:25> [info]: Received Packet from client: {"PACKET_ID":2,"PACKET_DATA":{"ping":1}}
+<2024-11-18 21:48:25> [info]: Packet ID: 2
+<2024-11-18 21:48:25> [info]: Packet Data: {"ping":1}
+<2024-11-18 21:48:44> [info]: Registered packet id: 1
+<2024-11-18 21:48:44> [info]: Registered packet id: 2
+<2024-11-18 21:48:45> [info]: Client connected: vWDCzJaTRlJK6v22AAAB
+<2024-11-18 21:48:46> [info]: Received Packet from client: {"PACKET_ID":2,"PACKET_DATA":{"ping":1}}
+<2024-11-18 21:48:46> [info]: Ping: 1
+<2024-11-18 21:48:52> [info]: Registered packet id: 1
+<2024-11-18 21:48:52> [info]: Registered packet id: 2
+<2024-11-18 21:48:53> [info]: Client connected: KtwdU0m3Ar7k9ZsIAAAB
+<2024-11-18 21:48:54> [info]: Ping: 1
+<2024-11-18 21:48:54> [info]: Ping: 1
+<2024-11-18 21:48:54> [info]: Ping: 1
+<2024-11-18 21:48:54> [info]: Ping: 1
+<2024-11-18 21:54:46> [info]: Registered packet id: 1
+<2024-11-18 21:54:46> [info]: Registered packet id: 2
+<2024-11-18 21:55:03> [info]: Client connected: 3oO0Psa7vcnQKJhWAAAB
+<2024-11-18 21:55:12> [warn]: Client disconnected: 3oO0Psa7vcnQKJhWAAAB
+<2024-11-18 21:56:04> [info]: Client connected: kSEvOYa1A28L1Qz4AAAD
+<2024-11-18 21:56:09> [error]: Unknown packet id: 0
+<2024-11-18 21:56:14> [error]: Unknown packet id: 0
+<2024-11-18 21:56:19> [error]: Unknown packet id: 0
+<2024-11-18 21:56:21> [warn]: Client disconnected: kSEvOYa1A28L1Qz4AAAD
+<2024-11-18 21:56:31> [info]: Client connected: F5OyYqhyZnr7Y4nQAAAF
+<2024-11-18 21:56:36> [info]: Ping: 1731941796307
+<2024-11-18 21:56:41> [info]: Ping: 1731941801308
+<2024-11-18 21:56:42> [warn]: Client disconnected: F5OyYqhyZnr7Y4nQAAAF
+<2024-11-18 21:56:51> [info]: Registered packet id: 1
+<2024-11-18 21:56:51> [info]: Registered packet id: 2
+<2024-11-18 21:57:01> [info]: Registered packet id: 1
+<2024-11-18 21:57:01> [info]: Registered packet id: 2
+<2024-11-18 21:57:11> [info]: Registered packet id: 1
+<2024-11-18 21:57:11> [info]: Registered packet id: 2
+<2024-11-18 21:57:11> [info]: Client connected: 6ym5dVijeio853UJAAAB
+<2024-11-18 21:57:16> [info]: Ping: 5
+<2024-11-18 21:57:21> [info]: Registered packet id: 1
+<2024-11-18 21:57:21> [info]: Registered packet id: 2
+<2024-11-18 21:57:23> [info]: Client connected: uZlVBHBCKqNfgannAAAB
+<2024-11-18 21:57:28> [info]: Ping: 2ms
+<2024-11-18 21:57:33> [info]: Ping: 1ms
+<2024-11-18 21:57:38> [info]: Ping: 13ms
+<2024-11-18 21:57:43> [info]: Ping: 3ms
+<2024-11-18 21:57:52> [info]: Registered packet id: 1
+<2024-11-18 21:57:52> [info]: Registered packet id: 2
+<2024-11-18 21:57:53> [info]: Client connected: 3zgF0h_g-mxvctNUAAAB
+<2024-11-18 21:57:58> [info]: <3zgF0h_g-mxvctNUAAAB> Ping: 1ms
+<2024-11-18 21:58:03> [info]: <3zgF0h_g-mxvctNUAAAB> Ping: 2ms
+<2024-11-18 21:58:05> [warn]: Client disconnected: 3zgF0h_g-mxvctNUAAAB
+<2024-11-18 22:00:14> [info]: Registered packet id: 1
+<2024-11-18 22:00:14> [info]: Registered packet id: 2
+<2024-11-18 22:00:17> [info]: Registered packet id: 1
+<2024-11-18 22:00:17> [info]: Registered packet id: 2
+<2024-11-18 22:00:20> [info]: Registered packet id: 1
+<2024-11-18 22:00:20> [info]: Registered packet id: 2
+<2024-11-18 22:00:28> [info]: Registered packet id: 1
+<2024-11-18 22:00:28> [info]: Registered packet id: 2
+<2024-11-18 22:00:38> [info]: Registered packet id: 1
+<2024-11-18 22:00:38> [info]: Registered packet id: 2
+<2024-11-18 22:00:43> [info]: Registered packet id: 1
+<2024-11-18 22:00:43> [info]: Registered packet id: 2
+<2024-11-18 22:01:04> [info]: Registered packet id: 1
+<2024-11-18 22:01:04> [info]: Registered packet id: 2
+<2024-11-18 22:01:29> [info]: Registered packet id: 1
+<2024-11-18 22:01:29> [info]: Registered packet id: 2
+<2024-11-18 22:04:00> [info]: Registered packet id: 1
+<2024-11-18 22:04:00> [info]: Registered packet id: 2
+<2024-11-18 22:04:04> [info]: Registered packet id: 1
+<2024-11-18 22:04:04> [info]: Registered packet id: 2
+<2024-11-18 22:04:05> [info]: Client connected: ATU5ZGP4dsAp2Wa_AAAB
+<2024-11-18 22:04:05> [info]: Sending Packet to client: ATU5ZGP4dsAp2Wa_AAAB
+<2024-11-18 22:04:06> [warn]: Client disconnected: ATU5ZGP4dsAp2Wa_AAAB
+<2024-11-18 22:04:24> [info]: Client connected: klGA2JHmX3OyLVw5AAAD
+<2024-11-18 22:04:24> [info]: Sending Packet to client: ATU5ZGP4dsAp2Wa_AAAB
+<2024-11-18 22:04:24> [info]: Sending Packet to client: klGA2JHmX3OyLVw5AAAD
+<2024-11-18 22:04:29> [info]: <klGA2JHmX3OyLVw5AAAD> Ping: 3ms
+<2024-11-18 22:04:34> [info]: <klGA2JHmX3OyLVw5AAAD> Ping: 1ms
+<2024-11-18 22:04:39> [info]: <klGA2JHmX3OyLVw5AAAD> Ping: 4ms
+<2024-11-18 22:04:44> [info]: <klGA2JHmX3OyLVw5AAAD> Ping: 13ms
+<2024-11-18 22:04:49> [info]: <klGA2JHmX3OyLVw5AAAD> Ping: 1ms
+<2024-11-18 22:04:54> [info]: <klGA2JHmX3OyLVw5AAAD> Ping: 1ms
+<2024-11-18 22:04:56> [warn]: Client disconnected: klGA2JHmX3OyLVw5AAAD
+<2024-11-18 22:04:57> [info]: Client connected: RWSazbJNAyYz54wUAAAF
+<2024-11-18 22:04:57> [info]: Sending Packet to client: ATU5ZGP4dsAp2Wa_AAAB
+<2024-11-18 22:04:57> [info]: Sending Packet to client: klGA2JHmX3OyLVw5AAAD
+<2024-11-18 22:04:57> [info]: Sending Packet to client: RWSazbJNAyYz54wUAAAF
+<2024-11-18 22:05:40> [info]: Registered packet id: 1
+<2024-11-18 22:05:40> [info]: Registered packet id: 2
+<2024-11-18 22:05:41> [info]: Client connected: NIyHBlO7huS_COClAAAB
+<2024-11-18 22:05:41> [info]: Sending Packet to client: NIyHBlO7huS_COClAAAB
+<2024-11-18 22:05:44> [info]: Registered packet id: 1
+<2024-11-18 22:05:44> [info]: Registered packet id: 2
+<2024-11-18 22:05:44> [info]: Client connected: o1U1HmHQA9q_fFRUAAAB
+<2024-11-18 22:05:44> [info]: Sending Packet to client: o1U1HmHQA9q_fFRUAAAB
+<2024-11-18 22:05:48> [info]: Registered packet id: 1
+<2024-11-18 22:05:48> [info]: Registered packet id: 2
+<2024-11-18 22:05:49> [info]: Client connected: D_XhEZbBx2IpwWgAAAAB
+<2024-11-18 22:05:49> [info]: Sending Packet to client: D_XhEZbBx2IpwWgAAAAB
+<2024-11-18 22:05:56> [info]: Registered packet id: 1
+<2024-11-18 22:05:56> [info]: Registered packet id: 2
+<2024-11-18 22:05:56> [info]: Client connected: VWsc250bwIeiYxEmAAAB
+<2024-11-18 22:05:56> [info]: Sending Packet to client: VWsc250bwIeiYxEmAAAB
+<2024-11-18 22:06:16> [info]: Registered packet id: 1
+<2024-11-18 22:06:16> [info]: Registered packet id: 2
+<2024-11-18 22:06:19> [info]: Registered packet id: 1
+<2024-11-18 22:06:19> [info]: Registered packet id: 2
+<2024-11-18 22:06:21> [info]: Client connected: CenPvgrCQm2PpAYWAAAB
+<2024-11-18 22:06:21> [info]: Sending Packet to client: CenPvgrCQm2PpAYWAAAB
+<2024-11-18 22:06:31> [info]: Registered packet id: 1
+<2024-11-18 22:06:31> [info]: Registered packet id: 2
+<2024-11-18 22:06:35> [info]: Client connected: _-0wlhJQ26YQqtAnAAAB
+<2024-11-18 22:06:53> [info]: Registered packet id: 1
+<2024-11-18 22:06:53> [info]: Registered packet id: 2
+<2024-11-18 22:06:54> [info]: Client connected: dFSP_cc4CHkNOD3PAAAB
+<2024-11-18 22:07:00> [info]: Registered packet id: 1
+<2024-11-18 22:07:00> [info]: Registered packet id: 2
+<2024-11-18 22:07:04> [info]: Registered packet id: 1
+<2024-11-18 22:07:04> [info]: Registered packet id: 2
+<2024-11-18 22:07:07> [info]: Registered packet id: 1
+<2024-11-18 22:07:07> [info]: Registered packet id: 2
+<2024-11-18 22:07:14> [info]: Registered packet id: 1
+<2024-11-18 22:07:14> [info]: Registered packet id: 2
+<2024-11-18 22:07:15> [info]: Client connected: VOCqfWmYVI8XHzKnAAAB
+<2024-11-18 22:07:19> [info]: Registered packet id: 1
+<2024-11-18 22:07:19> [info]: Registered packet id: 2
+<2024-11-18 22:07:20> [info]: Client connected: wNVXCkVzc9m-UWQJAAAB
+<2024-11-18 22:07:29> [info]: Registered packet id: 1
+<2024-11-18 22:07:29> [info]: Registered packet id: 2
+<2024-11-18 22:07:40> [info]: Registered packet id: 1
+<2024-11-18 22:07:40> [info]: Registered packet id: 2
+<2024-11-18 22:07:42> [info]: Client connected: VCHHQgKGg0-_PybDAAAB
+<2024-11-18 22:07:53> [info]: Registered packet id: 1
+<2024-11-18 22:07:53> [info]: Registered packet id: 2
+<2024-11-18 22:07:53> [info]: Client connected: PlJ8Y55Y1aaphTGlAAAB
+<2024-11-18 22:07:59> [info]: Registered packet id: 1
+<2024-11-18 22:07:59> [info]: Registered packet id: 2
+<2024-11-18 22:08:04> [info]: Client connected: nBWZ6aoenE4y0qDcAAAB
+<2024-11-18 22:08:17> [info]: Registered packet id: 1
+<2024-11-18 22:08:17> [info]: Registered packet id: 2
+<2024-11-18 22:08:23> [info]: Registered packet id: 1
+<2024-11-18 22:08:23> [info]: Registered packet id: 2
+<2024-11-18 22:08:27> [info]: Client connected: 5dJAaHz8sRCv0Kp8AAAB
+<2024-11-18 22:08:38> [info]: Registered packet id: 1
+<2024-11-18 22:08:38> [info]: Registered packet id: 2
+<2024-11-18 22:08:39> [info]: Client connected: R-wzGLGzWkcGTiz3AAAB
+<2024-11-18 22:09:54> [info]: Registered packet id: 1
+<2024-11-18 22:09:54> [info]: Registered packet id: 2
+<2024-11-18 22:09:55> [info]: Client connected: Wh8S8vFNuTKcR8sSAAAB
+<2024-11-18 22:10:49> [info]: Registered packet id: 1
+<2024-11-18 22:10:49> [info]: Registered packet id: 2
+<2024-11-18 22:10:53> [info]: Client connected: SazHhesgRWUeXsEYAAAB
+<2024-11-18 22:11:55> [info]: Registered packet id: 1
+<2024-11-18 22:11:55> [info]: Registered packet id: 2
+<2024-11-18 22:11:56> [info]: Client connected: NPYZHiv8QgvsBTCIAAAB
+<2024-11-18 22:12:00> [info]: Registered packet id: 1
+<2024-11-18 22:12:00> [info]: Registered packet id: 2
+<2024-11-18 22:12:03> [info]: Registered packet id: 1
+<2024-11-18 22:12:03> [info]: Registered packet id: 2
+<2024-11-18 22:12:05> [info]: Client connected: fleeLUuYpNPzREUoAAAB
+<2024-11-18 22:12:08> [info]: Registered packet id: 1
+<2024-11-18 22:12:08> [info]: Registered packet id: 2
+<2024-11-18 22:12:09> [info]: Client connected: Xc7-QUQ7ptoEDnGYAAAB
+<2024-11-18 22:12:13> [info]: Registered packet id: 1
+<2024-11-18 22:12:13> [info]: Registered packet id: 2
+<2024-11-18 22:12:14> [info]: Client connected: bh5SHilpiK9AbVEzAAAB
+<2024-11-18 22:12:18> [info]: Registered packet id: 1
+<2024-11-18 22:12:18> [info]: Registered packet id: 2
+<2024-11-18 22:12:19> [info]: Client connected: 3gCNNlJoYFpJi4BPAAAB
+<2024-11-18 22:12:30> [info]: Registered packet id: 1
+<2024-11-18 22:12:30> [info]: Registered packet id: 2
+<2024-11-18 22:12:33> [info]: Client connected: HvV1z030gnFTrbYzAAAB
+<2024-11-18 22:12:39> [info]: Registered packet id: 1
+<2024-11-18 22:12:39> [info]: Registered packet id: 2
+<2024-11-18 22:12:40> [info]: Client connected: pnHx-GhlqSjcsWTFAAAB
+<2024-11-18 22:12:48> [info]: Registered packet id: 1
+<2024-11-18 22:12:48> [info]: Registered packet id: 2
+<2024-11-18 22:12:50> [info]: Client connected: -lNahT5EvhqlSn58AAAB
+<2024-11-18 22:12:56> [info]: Registered packet id: 1
+<2024-11-18 22:12:56> [info]: Registered packet id: 2
+<2024-11-18 22:13:00> [info]: Registered packet id: 1
+<2024-11-18 22:13:00> [info]: Registered packet id: 2
+<2024-11-18 22:13:05> [info]: Client connected: 3SGm-2kHxXA1fww9AAAB
+<2024-11-18 22:13:07> [info]: Registered packet id: 1
+<2024-11-18 22:13:07> [info]: Registered packet id: 2
+<2024-11-18 22:13:08> [info]: Client connected: nCprnCiTUOR_QQ1wAAAB
+<2024-11-18 22:13:16> [info]: Registered packet id: 1
+<2024-11-18 22:13:16> [info]: Registered packet id: 2
+<2024-11-18 22:13:16> [info]: Client connected: e8cnUFC0q7kvejueAAAB
+<2024-11-18 22:13:20> [info]: Registered packet id: 1
+<2024-11-18 22:13:20> [info]: Registered packet id: 2
+<2024-11-18 22:13:21> [info]: Client connected: iAyL1NQGis1DLV0mAAAB
+<2024-11-18 22:13:23> [info]: Registered packet id: 1
+<2024-11-18 22:13:23> [info]: Registered packet id: 2
+<2024-11-18 22:13:24> [info]: Client connected: jIff-XhxZ8fWEFSZAAAB
+<2024-11-18 22:13:28> [info]: Registered packet id: 1
+<2024-11-18 22:13:28> [info]: Registered packet id: 2
+<2024-11-18 22:13:28> [info]: Client connected: Nih3MwFzvpshdTCvAAAB
+<2024-11-18 22:13:40> [info]: Registered packet id: 1
+<2024-11-18 22:13:40> [info]: Registered packet id: 2
+<2024-11-18 22:13:41> [info]: Client connected: 4QSbf520xT2KBsWqAAAB
+<2024-11-18 22:13:48> [info]: Registered packet id: 1
+<2024-11-18 22:13:48> [info]: Registered packet id: 2
+<2024-11-18 22:13:48> [info]: Client connected: QMr7OCjBgGAxDXXpAAAB
+<2024-11-18 22:13:55> [info]: Registered packet id: 1
+<2024-11-18 22:13:55> [info]: Registered packet id: 2
+<2024-11-18 22:13:55> [info]: Client connected: 7KxXzh4PcDYrbliBAAAB
+<2024-11-18 22:14:05> [info]: Registered packet id: 1
+<2024-11-18 22:14:05> [info]: Registered packet id: 2
+<2024-11-18 22:14:06> [info]: Client connected: 6jEvz6J4XSA_yw0FAAAB
+<2024-11-18 22:14:39> [info]: Registered packet id: 1
+<2024-11-18 22:14:39> [info]: Registered packet id: 2
+<2024-11-18 22:14:45> [info]: Registered packet id: 1
+<2024-11-18 22:14:45> [info]: Registered packet id: 2
+<2024-11-18 22:15:17> [info]: Registered packet id: 1
+<2024-11-18 22:15:17> [info]: Registered packet id: 2
+<2024-11-18 22:15:24> [info]: Registered packet id: 1
+<2024-11-18 22:15:24> [info]: Registered packet id: 2
+<2024-11-18 22:15:34> [info]: Registered packet id: 1
+<2024-11-18 22:15:34> [info]: Registered packet id: 2
+<2024-11-18 22:16:05> [info]: Registered packet id: 1
+<2024-11-18 22:16:05> [info]: Registered packet id: 2
+<2024-11-18 22:16:09> [info]: Registered packet id: 1
+<2024-11-18 22:16:09> [info]: Registered packet id: 2
+<2024-11-18 22:16:15> [info]: Registered packet id: 1
+<2024-11-18 22:16:15> [info]: Registered packet id: 2
+<2024-11-18 22:16:23> [info]: Registered packet id: 1
+<2024-11-18 22:16:23> [info]: Registered packet id: 2
+<2024-11-18 22:16:34> [info]: Registered packet id: 1
+<2024-11-18 22:16:34> [info]: Registered packet id: 2
+<2024-11-18 22:16:42> [info]: Registered packet id: 1
+<2024-11-18 22:16:42> [info]: Registered packet id: 2
+<2024-11-18 22:16:47> [info]: Registered packet id: 1
+<2024-11-18 22:16:47> [info]: Registered packet id: 2
+<2024-11-18 22:16:54> [info]: Registered packet id: 1
+<2024-11-18 22:16:54> [info]: Registered packet id: 2
+<2024-11-18 22:17:14> [info]: Registered packet id: 1
+<2024-11-18 22:17:14> [info]: Registered packet id: 2
+<2024-11-18 22:17:25> [info]: Registered packet id: 1
+<2024-11-18 22:17:25> [info]: Registered packet id: 2
+<2024-11-18 22:17:36> [info]: Registered packet id: 1
+<2024-11-18 22:17:36> [info]: Registered packet id: 2
+<2024-11-18 22:17:42> [info]: Registered packet id: 1
+<2024-11-18 22:17:42> [info]: Registered packet id: 2
+<2024-11-18 22:17:49> [info]: Registered packet id: 1
+<2024-11-18 22:17:49> [info]: Registered packet id: 2
+<2024-11-18 22:18:01> [info]: Registered packet id: 1
+<2024-11-18 22:18:01> [info]: Registered packet id: 2
+<2024-11-18 22:18:58> [info]: Registered packet id: 1
+<2024-11-18 22:18:58> [info]: Registered packet id: 2
+<2024-11-18 22:19:24> [info]: Registered packet id: 1
+<2024-11-18 22:19:24> [info]: Registered packet id: 2
+<2024-11-18 22:19:29> [info]: Registered packet id: 1
+<2024-11-18 22:19:29> [info]: Registered packet id: 2
+<2024-11-18 22:19:33> [info]: Registered packet id: 1
+<2024-11-18 22:19:33> [info]: Registered packet id: 2
+<2024-11-18 22:19:36> [info]: Registered packet id: 1
+<2024-11-18 22:19:36> [info]: Registered packet id: 2
+<2024-11-18 22:20:45> [info]: Registered packet id: 1
+<2024-11-18 22:20:45> [info]: Registered packet id: 2
+<2024-11-18 22:22:23> [info]: Registered packet id: 1
+<2024-11-18 22:22:23> [info]: Registered packet id: 2
+<2024-11-18 22:22:31> [info]: Registered packet id: 1
+<2024-11-18 22:22:31> [info]: Registered packet id: 2
+<2024-11-18 22:22:40> [info]: Registered packet id: 1
+<2024-11-18 22:22:40> [info]: Registered packet id: 2
+<2024-11-18 22:22:45> [info]: Registered packet id: 1
+<2024-11-18 22:22:45> [info]: Registered packet id: 2
+<2024-11-18 22:22:53> [info]: Registered packet id: 1
+<2024-11-18 22:22:53> [info]: Registered packet id: 2
+<2024-11-18 22:23:00> [info]: Registered packet id: 1
+<2024-11-18 22:23:00> [info]: Registered packet id: 2
+<2024-11-18 22:23:03> [info]: Registered packet id: 1
+<2024-11-18 22:23:03> [info]: Registered packet id: 2
+<2024-11-18 22:23:07> [info]: Registered packet id: 1
+<2024-11-18 22:23:07> [info]: Registered packet id: 2
+<2024-11-18 22:23:12> [info]: Registered packet id: 1
+<2024-11-18 22:23:12> [info]: Registered packet id: 2
+<2024-11-18 22:24:50> [info]: Registered packet id: 1
+<2024-11-18 22:24:50> [info]: Registered packet id: 2
+<2024-11-18 22:24:55> [info]: Registered packet id: 1
+<2024-11-18 22:24:55> [info]: Registered packet id: 2
+<2024-11-18 22:25:23> [info]: Registered packet id: 1
+<2024-11-18 22:25:23> [info]: Registered packet id: 2
+<2024-11-18 22:25:37> [info]: Registered packet id: 1
+<2024-11-18 22:25:37> [info]: Registered packet id: 2
+<2024-11-18 22:25:45> [info]: Registered packet id: 1
+<2024-11-18 22:25:45> [info]: Registered packet id: 2
+<2024-11-18 22:25:48> [info]: Registered packet id: 1
+<2024-11-18 22:25:48> [info]: Registered packet id: 2
+<2024-11-18 22:26:03> [info]: Registered packet id: 1
+<2024-11-18 22:26:03> [info]: Registered packet id: 2
+<2024-11-18 22:26:08> [info]: Registered packet id: 1
+<2024-11-18 22:26:08> [info]: Registered packet id: 2
+<2024-11-18 22:26:28> [info]: Registered packet id: 1
+<2024-11-18 22:26:28> [info]: Registered packet id: 2
+<2024-11-18 22:26:35> [info]: Registered packet id: 1
+<2024-11-18 22:26:35> [info]: Registered packet id: 2
+<2024-11-18 22:26:42> [info]: Registered packet id: 1
+<2024-11-18 22:26:42> [info]: Registered packet id: 2
+<2024-11-18 22:26:52> [info]: Registered packet id: 1
+<2024-11-18 22:26:52> [info]: Registered packet id: 2
+<2024-11-18 22:27:03> [info]: Registered packet id: 1
+<2024-11-18 22:27:03> [info]: Registered packet id: 2
+<2024-11-18 22:27:08> [info]: Registered packet id: 1
+<2024-11-18 22:27:08> [info]: Registered packet id: 2
+<2024-11-18 22:27:11> [info]: Registered packet id: 1
+<2024-11-18 22:27:11> [info]: Registered packet id: 2
+<2024-11-18 22:28:05> [info]: Registered packet id: 1
+<2024-11-18 22:28:05> [info]: Registered packet id: 2
+<2024-11-18 22:28:14> [info]: Registered packet id: 1
+<2024-11-18 22:28:14> [info]: Registered packet id: 2
+<2024-11-18 22:28:18> [info]: Registered packet id: 1
+<2024-11-18 22:28:18> [info]: Registered packet id: 2
+<2024-11-18 22:28:45> [info]: Registered packet id: 1
+<2024-11-18 22:28:45> [info]: Registered packet id: 2
+<2024-11-18 22:30:24> [info]: Registered packet id: 1
+<2024-11-18 22:30:24> [info]: Registered packet id: 2
+<2024-11-18 22:30:30> [info]: Registered packet id: 1
+<2024-11-18 22:30:30> [info]: Registered packet id: 2
+<2024-11-18 22:30:36> [info]: Registered packet id: 1
+<2024-11-18 22:30:36> [info]: Registered packet id: 2
+<2024-11-18 22:30:56> [info]: Registered packet id: 1
+<2024-11-18 22:30:56> [info]: Registered packet id: 2
+<2024-11-18 22:31:05> [info]: Registered packet id: 1
+<2024-11-18 22:31:05> [info]: Registered packet id: 2
+<2024-11-18 22:31:10> [info]: Registered packet id: 1
+<2024-11-18 22:31:10> [info]: Registered packet id: 2
+<2024-11-18 22:31:21> [info]: Registered packet id: 1
+<2024-11-18 22:31:21> [info]: Registered packet id: 2
+<2024-11-18 22:31:26> [info]: Registered packet id: 1
+<2024-11-18 22:31:26> [info]: Registered packet id: 2
+<2024-11-18 22:31:32> [info]: Registered packet id: 1
+<2024-11-18 22:31:32> [info]: Registered packet id: 2
+<2024-11-18 22:31:37> [info]: Registered packet id: 1
+<2024-11-18 22:31:37> [info]: Registered packet id: 2
+<2024-11-18 22:31:51> [info]: Registered packet id: 1
+<2024-11-18 22:31:51> [info]: Registered packet id: 2
+<2024-11-18 22:31:58> [info]: Registered packet id: 1
+<2024-11-18 22:31:58> [info]: Registered packet id: 2
+<2024-11-18 22:32:04> [info]: Registered packet id: 1
+<2024-11-18 22:32:04> [info]: Registered packet id: 2
+<2024-11-18 22:32:07> [info]: Registered packet id: 1
+<2024-11-18 22:32:07> [info]: Registered packet id: 2
+<2024-11-18 22:32:34> [info]: Registered packet id: 1
+<2024-11-18 22:32:34> [info]: Registered packet id: 2
+<2024-11-18 22:32:38> [info]: Registered packet id: 1
+<2024-11-18 22:32:38> [info]: Registered packet id: 2
+<2024-11-18 22:32:49> [info]: Registered packet id: 1
+<2024-11-18 22:32:49> [info]: Registered packet id: 2
+<2024-11-18 22:32:51> [info]: Registered packet id: 1
+<2024-11-18 22:32:51> [info]: Registered packet id: 2
+<2024-11-18 22:32:54> [info]: Registered packet id: 1
+<2024-11-18 22:32:54> [info]: Registered packet id: 2
+<2024-11-18 22:32:58> [info]: Registered packet id: 1
+<2024-11-18 22:32:58> [info]: Registered packet id: 2
+<2024-11-18 22:33:04> [info]: Registered packet id: 1
+<2024-11-18 22:33:04> [info]: Registered packet id: 2
+<2024-11-18 22:33:30> [info]: Registered packet id: 1
+<2024-11-18 22:33:30> [info]: Registered packet id: 2
+<2024-11-18 22:33:32> [info]: Registered packet id: 1
+<2024-11-18 22:33:32> [info]: Registered packet id: 2
+<2024-11-18 22:33:40> [info]: Registered packet id: 1
+<2024-11-18 22:33:40> [info]: Registered packet id: 2
+<2024-11-18 22:33:47> [info]: Registered packet id: 1
+<2024-11-18 22:33:47> [info]: Registered packet id: 2
+<2024-11-18 22:34:13> [info]: Registered packet id: 1
+<2024-11-18 22:34:13> [info]: Registered packet id: 2
+<2024-11-18 22:34:37> [info]: Registered packet id: 1
+<2024-11-18 22:34:37> [info]: Registered packet id: 2
+<2024-11-18 22:34:47> [info]: Registered packet id: 1
+<2024-11-18 22:34:47> [info]: Registered packet id: 2
+<2024-11-18 22:34:51> [info]: Registered packet id: 1
+<2024-11-18 22:34:51> [info]: Registered packet id: 2
+<2024-11-18 22:40:57> [info]: Client connected: iLNwY4gxj5cOxiIOAAAB
+<2024-11-18 22:41:01> [warn]: Client disconnected: iLNwY4gxj5cOxiIOAAAB
+<2024-11-18 22:41:04> [info]: Client connected: j-IL3xoKSwW2Bd3hAAAD
+<2024-11-18 22:41:11> [warn]: Client disconnected: j-IL3xoKSwW2Bd3hAAAD
+<2024-11-18 22:41:23> [info]: Registered packet id: 1
+<2024-11-18 22:41:23> [info]: Registered packet id: 2
+<2024-11-18 22:41:33> [info]: Registered packet id: 1
+<2024-11-18 22:41:33> [info]: Registered packet id: 2
+<2024-11-18 22:41:39> [info]: Registered packet id: 1
+<2024-11-18 22:41:39> [info]: Registered packet id: 2
+<2024-11-18 22:41:50> [info]: Registered packet id: 1
+<2024-11-18 22:41:50> [info]: Registered packet id: 2
+<2024-11-18 22:41:55> [info]: Registered packet id: 1
+<2024-11-18 22:41:55> [info]: Registered packet id: 2
+<2024-11-18 22:41:55> [info]: Server listening on port 2710
+<2024-11-18 22:42:12> [info]: Registered packet id: 1
+<2024-11-18 22:42:12> [info]: Registered packet id: 2
+<2024-11-18 22:42:12> [info]: Forwarding listening on port 2710
+<2024-11-18 22:42:36> [info]: Registered packet id: 1
+<2024-11-18 22:42:36> [info]: Registered packet id: 2
+<2024-11-18 22:43:09> [info]: Registered packet id: 1
+<2024-11-18 22:43:09> [info]: Registered packet id: 2
+<2024-11-18 22:43:18> [info]: Registered packet id: 1
+<2024-11-18 22:43:18> [info]: Registered packet id: 2
+<2024-11-18 22:43:23> [info]: Registered packet id: 1
+<2024-11-18 22:43:23> [info]: Registered packet id: 2
+<2024-11-18 22:43:23> [info]: Forwarding listening on port 8001
+<2024-11-18 22:43:26> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:43:26> [info]: Allocating port...
+<2024-11-18 22:43:26> [info]: Port allocated: 10000
+<2024-11-18 22:43:26> [warn]: No sockets connected to send packet
+<2024-11-18 22:44:12> [info]: Registered packet id: 1
+<2024-11-18 22:44:12> [info]: Registered packet id: 2
+<2024-11-18 22:44:12> [info]: Forwarding listening on port 8001
+<2024-11-18 22:44:35> [info]: Registered packet id: 1
+<2024-11-18 22:44:35> [info]: Registered packet id: 2
+<2024-11-18 22:44:35> [info]: Forwarding listening on port 8001
+<2024-11-18 22:44:42> [info]: Registered packet id: 1
+<2024-11-18 22:44:42> [info]: Registered packet id: 2
+<2024-11-18 22:44:42> [info]: Forwarding listening on port 8001
+<2024-11-18 22:45:22> [info]: Registered packet id: 1
+<2024-11-18 22:45:22> [info]: Registered packet id: 2
+<2024-11-18 22:45:22> [info]: Forwarding listening on port 8001
+<2024-11-18 22:45:23> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:23> [info]: Allocating port...
+<2024-11-18 22:45:23> [info]: Port allocated: 10000
+<2024-11-18 22:45:23> [warn]: No Server connected to send packet
+<2024-11-18 22:45:28> [info]: Client connected: 91RgydfJBt-RUOWGAAAB
+<2024-11-18 22:45:29> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:29> [info]: Allocating port...
+<2024-11-18 22:45:29> [info]: Port allocated: 10001
+<2024-11-18 22:45:29> [info]: [10001] Forward connection: ::1:10001 ---> ::1:8000
+<2024-11-18 22:45:29> [info]: [10001] Forward connection: ::ffff:127.0.0.1:10001 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:45:29> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:29> [info]: Allocating port...
+<2024-11-18 22:45:29> [info]: Port allocated: 10002
+<2024-11-18 22:45:29> [info]: [10002] Forward connection: ::1:10002 ---> ::1:8000
+<2024-11-18 22:45:29> [info]: [10002] Forward connection: ::ffff:127.0.0.1:10002 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:45:29> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:29> [info]: Allocating port...
+<2024-11-18 22:45:29> [info]: Port allocated: 10003
+<2024-11-18 22:45:29> [info]: [10003] Forward connection: ::1:10003 ---> ::1:8000
+<2024-11-18 22:45:29> [info]: [10003] Forward connection: ::ffff:127.0.0.1:10003 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:45:29> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:29> [info]: Allocating port...
+<2024-11-18 22:45:29> [info]: Port allocated: 10004
+<2024-11-18 22:45:29> [info]: [10004] Forward connection: ::1:10004 ---> ::1:8000
+<2024-11-18 22:45:29> [info]: [10004] Forward connection: ::ffff:127.0.0.1:10004 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:45:29> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:29> [info]: Allocating port...
+<2024-11-18 22:45:29> [info]: Port allocated: 10005
+<2024-11-18 22:45:29> [info]: [10005] Forward connection: ::1:10005 ---> ::1:8000
+<2024-11-18 22:45:29> [info]: [10005] Forward connection: ::ffff:127.0.0.1:10005 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:45:29> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:29> [info]: Allocating port...
+<2024-11-18 22:45:29> [info]: Port allocated: 10006
+<2024-11-18 22:45:29> [info]: [10006] Forward connection: ::1:10006 ---> ::1:8000
+<2024-11-18 22:45:29> [info]: [10006] Forward connection: ::ffff:127.0.0.1:10006 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:45:29> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:29> [info]: Allocating port...
+<2024-11-18 22:45:29> [info]: Port allocated: 10007
+<2024-11-18 22:45:29> [info]: [10007] Forward connection: ::1:10007 ---> ::1:8000
+<2024-11-18 22:45:29> [info]: [10007] Forward connection: ::ffff:127.0.0.1:10007 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:45:29> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:29> [info]: Allocating port...
+<2024-11-18 22:45:29> [info]: Port allocated: 10008
+<2024-11-18 22:45:29> [info]: [10008] Forward connection: ::1:10008 ---> ::1:8000
+<2024-11-18 22:45:29> [info]: [10008] Forward connection: ::ffff:127.0.0.1:10008 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:45:29> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:29> [info]: Allocating port...
+<2024-11-18 22:45:29> [info]: Port allocated: 10009
+<2024-11-18 22:45:29> [info]: [10009] Forward connection: ::1:10009 ---> ::1:8000
+<2024-11-18 22:45:29> [info]: [10009] Forward connection: ::ffff:127.0.0.1:10009 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:45:29> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:45:29> [info]: Allocating port...
+<2024-11-18 22:45:29> [info]: Port allocated: 10010
+<2024-11-18 22:45:29> [info]: [10010] Forward connection: ::1:10010 ---> ::1:8000
+<2024-11-18 22:45:29> [info]: [10010] Forward connection: ::ffff:127.0.0.1:10010 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:45:35> [warn]: Client disconnected: 91RgydfJBt-RUOWGAAAB
+<2024-11-18 22:45:55> [info]: Registered packet id: 1
+<2024-11-18 22:45:55> [info]: Registered packet id: 2
+<2024-11-18 22:45:55> [info]: Forwarding listening on port 8001
+<2024-11-18 22:46:21> [info]: Registered packet id: 1
+<2024-11-18 22:46:21> [info]: Registered packet id: 2
+<2024-11-18 22:46:21> [info]: Forwarding listening on port 8001
+<2024-11-18 22:46:24> [info]: Registered packet id: 1
+<2024-11-18 22:46:24> [info]: Registered packet id: 2
+<2024-11-18 22:46:24> [info]: Forwarding listening on port 8001
+<2024-11-18 22:47:17> [info]: Registered packet id: 1
+<2024-11-18 22:47:17> [info]: Registered packet id: 2
+<2024-11-18 22:47:17> [info]: Forwarding listening on port 8001
+<2024-11-18 22:47:19> [info]: Client connected: RXFhMHb2cylaFrp1AAAB
+<2024-11-18 22:47:25> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:47:25> [info]: Allocating port...
+<2024-11-18 22:47:25> [info]: Port allocated: 10000
+<2024-11-18 22:47:25> [info]: [10000] Forward connection: ::1:10000 ---> ::1:8000
+<2024-11-18 22:47:25> [info]: [10000] Forward connection: ::ffff:127.0.0.1:10000 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:47:25> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:47:25> [info]: Allocating port...
+<2024-11-18 22:47:25> [info]: Port allocated: 10001
+<2024-11-18 22:47:25> [info]: [10001] Forward connection: ::1:10001 ---> ::1:8000
+<2024-11-18 22:47:25> [info]: [10001] Forward connection: ::ffff:127.0.0.1:10001 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:47:25> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:47:25> [info]: Allocating port...
+<2024-11-18 22:47:25> [info]: Port allocated: 10002
+<2024-11-18 22:47:25> [info]: [10002] Forward connection: ::1:10002 ---> ::1:8000
+<2024-11-18 22:47:25> [info]: [10002] Forward connection: ::ffff:127.0.0.1:10002 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:47:25> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:47:25> [info]: Allocating port...
+<2024-11-18 22:47:25> [info]: Port allocated: 10003
+<2024-11-18 22:47:25> [info]: [10003] Forward connection: ::1:10003 ---> ::1:8000
+<2024-11-18 22:47:25> [info]: [10003] Forward connection: ::ffff:127.0.0.1:10003 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:47:25> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:47:25> [info]: Allocating port...
+<2024-11-18 22:47:25> [info]: Port allocated: 10004
+<2024-11-18 22:47:25> [info]: [10004] Forward connection: ::1:10004 ---> ::1:8000
+<2024-11-18 22:47:25> [info]: [10004] Forward connection: ::ffff:127.0.0.1:10004 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:47:25> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:47:25> [info]: Allocating port...
+<2024-11-18 22:47:25> [info]: Port allocated: 10005
+<2024-11-18 22:47:25> [info]: [10005] Forward connection: ::1:10005 ---> ::1:8000
+<2024-11-18 22:47:25> [info]: [10005] Forward connection: ::ffff:127.0.0.1:10005 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:47:25> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:47:25> [info]: Allocating port...
+<2024-11-18 22:47:25> [info]: Port allocated: 10006
+<2024-11-18 22:47:25> [info]: [10006] Forward connection: ::1:10006 ---> ::1:8000
+<2024-11-18 22:47:25> [info]: [10006] Forward connection: ::ffff:127.0.0.1:10006 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:47:25> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:47:25> [info]: Allocating port...
+<2024-11-18 22:47:25> [info]: Port allocated: 10007
+<2024-11-18 22:47:25> [info]: [10007] Forward connection: ::1:10007 ---> ::1:8000
+<2024-11-18 22:47:25> [info]: [10007] Forward connection: ::ffff:127.0.0.1:10007 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:47:25> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:47:25> [info]: Allocating port...
+<2024-11-18 22:47:25> [info]: Port allocated: 10008
+<2024-11-18 22:47:25> [info]: [10008] Forward connection: ::1:10008 ---> ::1:8000
+<2024-11-18 22:47:25> [info]: [10008] Forward connection: ::ffff:127.0.0.1:10008 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:47:25> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:47:25> [info]: Allocating port...
+<2024-11-18 22:47:25> [info]: Port allocated: 10009
+<2024-11-18 22:47:25> [info]: [10009] Forward connection: ::1:10009 ---> ::1:8000
+<2024-11-18 22:47:25> [info]: [10009] Forward connection: ::ffff:127.0.0.1:10009 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:47:25> [warn]: Client disconnected: RXFhMHb2cylaFrp1AAAB
+<2024-11-18 22:48:29> [info]: Registered packet id: 1
+<2024-11-18 22:48:29> [info]: Registered packet id: 2
+<2024-11-18 22:48:29> [info]: Forwarding listening on port 8001
+<2024-11-18 22:49:57> [info]: Client connected: U1N_ZFLNTyr7paYbAAAB
+<2024-11-18 22:49:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:49:59> [info]: Allocating port...
+<2024-11-18 22:49:59> [info]: Port allocated: 10000
+<2024-11-18 22:49:59> [info]: [10000] Forward connection: ::1:10000 ---> ::1:8000
+<2024-11-18 22:49:59> [info]: [10000] Forward connection: ::ffff:127.0.0.1:10000 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:49:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:49:59> [info]: Allocating port...
+<2024-11-18 22:49:59> [info]: Port allocated: 10001
+<2024-11-18 22:49:59> [info]: [10001] Forward connection: ::1:10001 ---> ::1:8000
+<2024-11-18 22:49:59> [info]: [10001] Forward connection: ::ffff:127.0.0.1:10001 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:49:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:49:59> [info]: Allocating port...
+<2024-11-18 22:49:59> [info]: Port allocated: 10002
+<2024-11-18 22:49:59> [info]: [10002] Forward connection: ::1:10002 ---> ::1:8000
+<2024-11-18 22:49:59> [info]: [10002] Forward connection: ::ffff:127.0.0.1:10002 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:49:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:49:59> [info]: Allocating port...
+<2024-11-18 22:49:59> [info]: Port allocated: 10003
+<2024-11-18 22:49:59> [info]: [10003] Forward connection: ::1:10003 ---> ::1:8000
+<2024-11-18 22:49:59> [info]: [10003] Forward connection: ::ffff:127.0.0.1:10003 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:49:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:49:59> [info]: Allocating port...
+<2024-11-18 22:49:59> [info]: Port allocated: 10004
+<2024-11-18 22:49:59> [info]: [10004] Forward connection: ::1:10004 ---> ::1:8000
+<2024-11-18 22:49:59> [info]: [10004] Forward connection: ::ffff:127.0.0.1:10004 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:49:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:49:59> [info]: Allocating port...
+<2024-11-18 22:49:59> [info]: Port allocated: 10005
+<2024-11-18 22:49:59> [info]: [10005] Forward connection: ::1:10005 ---> ::1:8000
+<2024-11-18 22:49:59> [info]: [10005] Forward connection: ::ffff:127.0.0.1:10005 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:49:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:49:59> [info]: Allocating port...
+<2024-11-18 22:49:59> [info]: Port allocated: 10006
+<2024-11-18 22:49:59> [info]: [10006] Forward connection: ::1:10006 ---> ::1:8000
+<2024-11-18 22:49:59> [info]: [10006] Forward connection: ::ffff:127.0.0.1:10006 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:49:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:49:59> [info]: Allocating port...
+<2024-11-18 22:49:59> [info]: Port allocated: 10007
+<2024-11-18 22:49:59> [info]: [10007] Forward connection: ::1:10007 ---> ::1:8000
+<2024-11-18 22:49:59> [info]: [10007] Forward connection: ::ffff:127.0.0.1:10007 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:49:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:49:59> [info]: Allocating port...
+<2024-11-18 22:49:59> [info]: Port allocated: 10008
+<2024-11-18 22:49:59> [info]: [10008] Forward connection: ::1:10008 ---> ::1:8000
+<2024-11-18 22:49:59> [info]: [10008] Forward connection: ::ffff:127.0.0.1:10008 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:49:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:49:59> [info]: Allocating port...
+<2024-11-18 22:49:59> [info]: Port allocated: 10009
+<2024-11-18 22:49:59> [info]: [10009] Forward connection: ::1:10009 ---> ::1:8000
+<2024-11-18 22:49:59> [info]: [10009] Forward connection: ::ffff:127.0.0.1:10009 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:49:59> [warn]: Client disconnected: U1N_ZFLNTyr7paYbAAAB
+<2024-11-18 22:50:23> [info]: Registered packet id: 1
+<2024-11-18 22:50:23> [info]: Registered packet id: 2
+<2024-11-18 22:50:23> [info]: Forwarding listening on port 8001
+<2024-11-18 22:50:38> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:50:38> [info]: Allocating port...
+<2024-11-18 22:50:38> [info]: Port allocated: 10000
+<2024-11-18 22:50:38> [warn]: No Server connected to send packet
+<2024-11-18 22:50:44> [info]: Client connected: Ts8MHDTzqJbIHrG9AAAB
+<2024-11-18 22:50:53> [info]: Registered packet id: 1
+<2024-11-18 22:50:53> [info]: Registered packet id: 2
+<2024-11-18 22:50:53> [info]: Forwarding listening on port 8001
+<2024-11-18 22:50:55> [info]: Client connected: m6F0T7gD9iuT1k_fAAAB
+<2024-11-18 22:50:56> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:50:56> [info]: Allocating port...
+<2024-11-18 22:50:56> [info]: Port allocated: 10000
+<2024-11-18 22:50:56> [info]: [10000] Forward connection: ::1:10000 ---> ::1:8000
+<2024-11-18 22:50:56> [info]: [10000] Forward connection: ::ffff:127.0.0.1:10000 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:51:09> [warn]: Client disconnected: m6F0T7gD9iuT1k_fAAAB
+<2024-11-18 22:51:11> [info]: Client connected: Qfofbj0Kb5iM9HxtAAAD
+<2024-11-18 22:51:20> [info]: Registered packet id: 1
+<2024-11-18 22:51:20> [info]: Registered packet id: 2
+<2024-11-18 22:51:20> [info]: Forwarding listening on port 8001
+<2024-11-18 22:51:25> [info]: Client connected: bdubGrMkNPQsyON_AAAB
+<2024-11-18 22:51:30> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:51:30> [info]: Allocating port...
+<2024-11-18 22:51:30> [info]: Port allocated: 10000
+<2024-11-18 22:51:30> [info]: [10000] Forward connection: ::1:10000 ---> ::1:8000
+<2024-11-18 22:51:30> [info]: [10000] Forward connection: ::ffff:127.0.0.1:10000 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:51:57> [info]: Registered packet id: 1
+<2024-11-18 22:51:57> [info]: Registered packet id: 2
+<2024-11-18 22:51:57> [info]: Forwarding listening on port 8001
+<2024-11-18 22:51:58> [info]: Client connected: dcZInMxKnyBpmwsUAAAB
+<2024-11-18 22:52:04> [info]: Registered packet id: 1
+<2024-11-18 22:52:04> [info]: Registered packet id: 2
+<2024-11-18 22:52:04> [info]: Forwarding listening on port 8001
+<2024-11-18 22:52:08> [info]: Client connected: 3hOOhT-wetm8x0QGAAAB
+<2024-11-18 22:52:10> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:52:10> [info]: Allocating port...
+<2024-11-18 22:52:10> [info]: Port allocated: 10000
+<2024-11-18 22:52:10> [info]: [10000] Recived connection from ::1:10000
+<2024-11-18 22:52:10> [info]: [10000] Forward connection: ::1:10000 ---> ::1:8000
+<2024-11-18 22:52:10> [info]: [10000] Recived connection from ::ffff:127.0.0.1:10000
+<2024-11-18 22:52:10> [info]: [10000] Forward connection: ::ffff:127.0.0.1:10000 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:52:51> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:52:51> [info]: Allocating port...
+<2024-11-18 22:52:51> [info]: Port allocated: 10001
+<2024-11-18 22:52:51> [info]: [10001] Recived connection from ::1:10001
+<2024-11-18 22:52:51> [info]: [10001] Forward connection: ::1:10001 ---> ::1:8000
+<2024-11-18 22:52:51> [info]: [10001] Recived connection from ::ffff:127.0.0.1:10001
+<2024-11-18 22:52:51> [info]: [10001] Forward connection: ::ffff:127.0.0.1:10001 ---> ::ffff:127.0.0.1:8000
+<2024-11-18 22:53:29> [info]: Registered packet id: 1
+<2024-11-18 22:53:29> [info]: Registered packet id: 2
+<2024-11-18 22:53:29> [info]: Forwarding listening on port 8001
+<2024-11-18 22:53:30> [info]: Client connected: aW4UyaGOcBTuE9EUAAAB
+<2024-11-18 22:53:37> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:53:37> [info]: Allocating port...
+<2024-11-18 22:53:37> [info]: Port allocated: 10000
+<2024-11-18 22:53:37> [info]: [10000] Recived connection from ::1:10000
+<2024-11-18 22:53:37> [info]: [10000] Recived connection from ::ffff:127.0.0.1:10000
+<2024-11-18 22:55:11> [warn]: Client disconnected: aW4UyaGOcBTuE9EUAAAB
+<2024-11-18 22:55:12> [info]: Client connected: S6qrKLhVxS8fjj7ZAAAD
+<2024-11-18 22:55:21> [info]: Registered packet id: 1
+<2024-11-18 22:55:21> [info]: Registered packet id: 2
+<2024-11-18 22:55:21> [info]: Forwarding listening on port 8001
+<2024-11-18 22:55:22> [info]: Client connected: 7ZjZCvWJwyge0F3BAAAB
+<2024-11-18 22:55:23> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:55:23> [info]: Allocating port...
+<2024-11-18 22:55:23> [info]: Port allocated: 10000
+<2024-11-18 22:55:23> [info]: [10000] Recived connection from ::1:10000
+<2024-11-18 22:55:23> [info]: [10000] Recived connection from ::ffff:127.0.0.1:10000
+<2024-11-18 22:55:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:55:59> [info]: Allocating port...
+<2024-11-18 22:55:59> [info]: Port allocated: 10001
+<2024-11-18 22:55:59> [info]: [10001] Recived connection from ::1:10001
+<2024-11-18 22:55:59> [info]: [10001] Recived connection from ::ffff:127.0.0.1:10001
+<2024-11-18 22:57:37> [warn]: Client disconnected: 7ZjZCvWJwyge0F3BAAAB
+<2024-11-18 22:57:44> [info]: Registered packet id: 1
+<2024-11-18 22:57:44> [info]: Registered packet id: 2
+<2024-11-18 22:57:44> [info]: Forwarding listening on port 8001
+<2024-11-18 22:57:44> [info]: Client connected: 5NSPdetAZoX3bpvoAAAB
+<2024-11-18 22:57:47> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:57:47> [info]: Allocating port...
+<2024-11-18 22:57:47> [info]: Port allocated: 10000
+<2024-11-18 22:57:47> [info]: [10000] Recived connection from ::1:10000
+<2024-11-18 22:57:47> [info]: [10000] Recived connection from ::ffff:127.0.0.1:10000
+<2024-11-18 22:58:37> [info]: Registered packet id: 1
+<2024-11-18 22:58:37> [info]: Registered packet id: 2
+<2024-11-18 22:58:37> [info]: Forwarding listening on port 8001
+<2024-11-18 22:58:38> [info]: Client connected: mlReklTkCJjVepnyAAAB
+<2024-11-18 22:59:21> [info]: Registered packet id: 1
+<2024-11-18 22:59:21> [info]: Registered packet id: 2
+<2024-11-18 22:59:21> [info]: Forwarding listening on port 8001
+<2024-11-18 22:59:21> [info]: Client connected: 3KuxhvOEPyDXgnphAAAB
+<2024-11-18 22:59:29> [info]: Registered packet id: 1
+<2024-11-18 22:59:29> [info]: Registered packet id: 2
+<2024-11-18 22:59:29> [info]: Forwarding listening on port 8001
+<2024-11-18 22:59:33> [info]: Registered packet id: 1
+<2024-11-18 22:59:33> [info]: Registered packet id: 2
+<2024-11-18 22:59:33> [info]: Forwarding listening on port 8001
+<2024-11-18 22:59:35> [info]: Registered packet id: 1
+<2024-11-18 22:59:35> [info]: Registered packet id: 2
+<2024-11-18 22:59:35> [info]: Forwarding listening on port 8001
+<2024-11-18 22:59:39> [info]: Client connected: fQCAlywHXuXIH9dyAAAB
+<2024-11-18 22:59:43> [info]: Registered packet id: 1
+<2024-11-18 22:59:43> [info]: Registered packet id: 2
+<2024-11-18 22:59:43> [info]: Forwarding listening on port 8001
+<2024-11-18 22:59:45> [info]: Client connected: a96tkOpVHtP58OpQAAAB
+<2024-11-18 22:59:48> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 22:59:48> [info]: Allocating port...
+<2024-11-18 22:59:48> [info]: Port allocated: 10000
+<2024-11-18 22:59:48> [info]: [10000] Received connection from ::1:10000
+<2024-11-18 22:59:48> [info]: [10000] Received connection from ::ffff:127.0.0.1:10000
+<2024-11-18 22:59:48> [info]: Server connection closed for port 10000
+<2024-11-18 23:03:14> [info]: Registered packet id: 1
+<2024-11-18 23:03:14> [info]: Registered packet id: 2
+<2024-11-18 23:03:14> [info]: Forwarding listening on port 8001
+<2024-11-18 23:03:15> [info]: Client connected: oZZDLuRWmqCR6mgpAAAB
+<2024-11-18 23:03:18> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:03:18> [info]: Allocating port...
+<2024-11-18 23:03:18> [info]: Port allocated: 10000
+<2024-11-18 23:03:18> [info]: [10000] Received connection from ::1:10000
+<2024-11-18 23:03:18> [info]: [10000] Received connection from ::ffff:127.0.0.1:10000
+<2024-11-18 23:03:18> [info]: Server connection closed for port 10000
+<2024-11-18 23:03:43> [info]: Registered packet id: 1
+<2024-11-18 23:03:43> [info]: Registered packet id: 2
+<2024-11-18 23:03:43> [info]: Forwarding listening on port 8001
+<2024-11-18 23:03:44> [info]: Client connected: nyQ3t4cUm1vSfwc9AAAB
+<2024-11-18 23:03:51> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:03:51> [info]: Allocating port...
+<2024-11-18 23:03:51> [info]: Port allocated: 10000
+<2024-11-18 23:03:51> [info]: [10000] Received connection from ::1:10000
+<2024-11-18 23:03:51> [info]: [10000] Received connection from ::ffff:127.0.0.1:10000
+<2024-11-18 23:03:51> [info]: Server connection closed for port 10000
+<2024-11-18 23:04:17> [info]: Registered packet id: 1
+<2024-11-18 23:04:17> [info]: Registered packet id: 2
+<2024-11-18 23:04:17> [info]: Forwarding listening on port 8001
+<2024-11-18 23:04:18> [info]: Client connected: UIsSltpAkwi8ju4eAAAB
+<2024-11-18 23:04:23> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:04:23> [info]: Allocating port...
+<2024-11-18 23:04:23> [info]: Port allocated: 10000
+<2024-11-18 23:04:23> [info]: [10000] Forwarding listening on port 10000
+<2024-11-18 23:04:23> [info]: [10000] Received connection from ::1:10000
+<2024-11-18 23:04:23> [info]: [10000] Received connection from ::ffff:127.0.0.1:10000
+<2024-11-18 23:04:23> [info]: Server connection closed for port 10000
+<2024-11-18 23:05:12> [info]: Registered packet id: 1
+<2024-11-18 23:05:12> [info]: Registered packet id: 2
+<2024-11-18 23:05:12> [info]: Forwarding listening on port 8001
+<2024-11-18 23:05:13> [info]: Client connected: 0J4Qhm6Md_IJkSC0AAAB
+<2024-11-18 23:05:18> [info]: Registered packet id: 1
+<2024-11-18 23:05:18> [info]: Registered packet id: 2
+<2024-11-18 23:05:18> [info]: Forwarding listening on port 8001
+<2024-11-18 23:05:23> [info]: Registered packet id: 1
+<2024-11-18 23:05:23> [info]: Registered packet id: 2
+<2024-11-18 23:05:23> [info]: Forwarding listening on port 8001
+<2024-11-18 23:05:28> [info]: Registered packet id: 1
+<2024-11-18 23:05:28> [info]: Registered packet id: 2
+<2024-11-18 23:05:28> [info]: Forwarding listening on port 8001
+<2024-11-18 23:05:31> [info]: Client connected: yNhm670mK3wQyFBAAAAB
+<2024-11-18 23:05:38> [warn]: Client disconnected: yNhm670mK3wQyFBAAAAB
+<2024-11-18 23:05:42> [info]: Registered packet id: 1
+<2024-11-18 23:05:42> [info]: Registered packet id: 2
+<2024-11-18 23:05:42> [info]: Forwarding listening on port 8001
+<2024-11-18 23:05:44> [info]: Client connected: f3fn0_80rBU_p_4RAAAB
+<2024-11-18 23:05:47> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:05:47> [info]: Allocating port...
+<2024-11-18 23:05:47> [info]: Port allocated: 10000
+<2024-11-18 23:05:47> [info]: [10000] Forwarding listening on port 10000
+<2024-11-18 23:05:47> [info]: [10000] Received connection from ::1:10000
+<2024-11-18 23:05:47> [info]: [10000] Received connection from ::ffff:127.0.0.1:10000
+<2024-11-18 23:05:47> [info]: Server connection closed for port 10000
+<2024-11-18 23:06:22> [info]: Registered packet id: 1
+<2024-11-18 23:06:22> [info]: Registered packet id: 2
+<2024-11-18 23:06:22> [info]: Forwarding listening on port 8001
+<2024-11-18 23:06:23> [info]: Client connected: fBUOUX9cTMk9d2pLAAAB
+<2024-11-18 23:06:26> [info]: Registered packet id: 1
+<2024-11-18 23:06:26> [info]: Registered packet id: 2
+<2024-11-18 23:06:26> [info]: Forwarding listening on port 8001
+<2024-11-18 23:06:31> [info]: Registered packet id: 1
+<2024-11-18 23:06:31> [info]: Registered packet id: 2
+<2024-11-18 23:06:31> [info]: Forwarding listening on port 8001
+<2024-11-18 23:06:32> [info]: Client connected: t6SO4uAcaTKZbcGaAAAB
+<2024-11-18 23:06:34> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:06:34> [info]: Allocating port...
+<2024-11-18 23:06:34> [info]: Port allocated: 10000
+<2024-11-18 23:06:34> [info]: [10000] Forwarding listening on port 10000
+<2024-11-18 23:06:34> [info]: [10000] Received connection from ::1:10000
+<2024-11-18 23:06:34> [info]: [10000] Received connection from ::ffff:127.0.0.1:10000
+<2024-11-18 23:06:34> [info]: Server connection closed for port 10000
+<2024-11-18 23:08:02> [info]: Registered packet id: 1
+<2024-11-18 23:08:02> [info]: Registered packet id: 2
+<2024-11-18 23:08:02> [info]: Forwarding listening on port 8001
+<2024-11-18 23:08:06> [info]: Client connected: byAuUQ2Dtr6LLdktAAAB
+<2024-11-18 23:08:08> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:08:08> [info]: Allocating port...
+<2024-11-18 23:08:08> [info]: Port allocated: 10000
+<2024-11-18 23:08:08> [info]: [10000] Forwarding listening on port 10000
+<2024-11-18 23:08:08> [info]: [10000] Received connection from ::1:10000
+<2024-11-18 23:08:08> [info]: [10000] Received connection from ::ffff:127.0.0.1:10000
+<2024-11-18 23:08:08> [info]: Server connection closed for port 10000
+<2024-11-18 23:10:08> [error]: Server socket error: read ECONNRESET
+<2024-11-18 23:10:08> [info]: Server connection closed for port 10000
+<2024-11-18 23:12:00> [warn]: Client disconnected: byAuUQ2Dtr6LLdktAAAB
+<2024-11-18 23:12:07> [info]: Registered packet id: 1
+<2024-11-18 23:12:07> [info]: Registered packet id: 2
+<2024-11-18 23:12:07> [info]: Forwarding listening on port 8001
+<2024-11-18 23:12:08> [info]: Client connected: xajFG6g7WkYlDpR0AAAB
+<2024-11-18 23:12:10> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:12:10> [info]: Allocating port...
+<2024-11-18 23:12:10> [info]: Port allocated: 10000
+<2024-11-18 23:12:10> [info]: [10000] Forwarding listening on port 10000
+<2024-11-18 23:12:10> [info]: [10000] Received connection from ::1:10000
+<2024-11-18 23:12:10> [info]: [10000] Received connection from ::ffff:127.0.0.1:10000
+<2024-11-18 23:12:10> [info]: Server connection closed for port 10000
+<2024-11-18 23:17:08> [warn]: Client disconnected: xajFG6g7WkYlDpR0AAAB
+<2024-11-18 23:18:14> [info]: Registered packet id: 1
+<2024-11-18 23:18:14> [info]: Registered packet id: 2
+<2024-11-18 23:18:14> [info]: Forwarding listening on port 8001
+<2024-11-18 23:18:15> [info]: Client connected: Rrm6b6XZsCvM7xZTAAAB
+<2024-11-18 23:18:17> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:18:17> [info]: Allocating port...
+<2024-11-18 23:18:17> [info]: Port allocated: 10000
+<2024-11-18 23:18:17> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:18:17> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:18:17> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:18:17> [info]: [Forward] Forward socket ended
+<2024-11-18 23:18:17> [info]: [Forward] Client socket ended
+<2024-11-18 23:18:17> [info]: [Forward] Client socket ended
+<2024-11-18 23:18:17> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:19:43> [warn]: Client disconnected: Rrm6b6XZsCvM7xZTAAAB
+<2024-11-18 23:19:43> [error]: [Forward] Forward socket error: read ECONNRESET
+<2024-11-18 23:19:48> [info]: Registered packet id: 1
+<2024-11-18 23:19:48> [info]: Registered packet id: 2
+<2024-11-18 23:19:48> [info]: Forwarding listening on port 8001
+<2024-11-18 23:19:48> [info]: Client connected: A9GGSzXlXZPh0_P1AAAB
+<2024-11-18 23:19:51> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:19:51> [info]: Allocating port...
+<2024-11-18 23:19:51> [info]: Port allocated: 10000
+<2024-11-18 23:19:51> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:19:51> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:19:51> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:19:51> [info]: [Forward] Forward socket ended
+<2024-11-18 23:19:51> [info]: [Forward] Client socket ended
+<2024-11-18 23:19:51> [info]: [Forward] Client socket ended
+<2024-11-18 23:19:51> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:21:00> [info]: Registered packet id: 1
+<2024-11-18 23:21:00> [info]: Registered packet id: 2
+<2024-11-18 23:21:00> [info]: Forwarding listening on port 8001
+<2024-11-18 23:21:04> [info]: Registered packet id: 1
+<2024-11-18 23:21:04> [info]: Registered packet id: 2
+<2024-11-18 23:21:04> [info]: Forwarding listening on port 8001
+<2024-11-18 23:21:06> [info]: Client connected: Gb1fcp_yytZFJ5sJAAAB
+<2024-11-18 23:21:08> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:21:08> [info]: Allocating port...
+<2024-11-18 23:21:08> [info]: Port allocated: 10000
+<2024-11-18 23:21:08> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:21:08> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:21:08> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:21:08> [info]: [Forward] Forward socket ended
+<2024-11-18 23:21:08> [info]: [Forward] Client socket ended
+<2024-11-18 23:21:08> [info]: [Forward] Client socket ended
+<2024-11-18 23:21:08> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:21:41> [info]: Registered packet id: 1
+<2024-11-18 23:21:41> [info]: Registered packet id: 2
+<2024-11-18 23:21:41> [info]: Forwarding listening on port 8001
+<2024-11-18 23:21:47> [info]: Registered packet id: 1
+<2024-11-18 23:21:47> [info]: Registered packet id: 2
+<2024-11-18 23:21:47> [info]: Forwarding listening on port 8001
+<2024-11-18 23:21:49> [info]: Client connected: 1a626XRzonKPjXQjAAAB
+<2024-11-18 23:21:54> [info]: Registered packet id: 1
+<2024-11-18 23:21:54> [info]: Registered packet id: 2
+<2024-11-18 23:21:54> [info]: Forwarding listening on port 8001
+<2024-11-18 23:21:58> [info]: Client connected: yI9c9yB_X7fFckYBAAAB
+<2024-11-18 23:22:48> [info]: Registered packet id: 1
+<2024-11-18 23:22:48> [info]: Registered packet id: 2
+<2024-11-18 23:22:48> [info]: Forwarding listening on port 8001
+<2024-11-18 23:22:51> [info]: Client connected: D0WRroGOUJlbHra_AAAB
+<2024-11-18 23:22:55> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:22:55> [info]: Allocating port...
+<2024-11-18 23:22:55> [info]: Port allocated: 10000
+<2024-11-18 23:22:55> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:22:55> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:22:55> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:22:55> [info]: [Forward] Forward socket ended
+<2024-11-18 23:22:55> [info]: [Forward] Client socket ended
+<2024-11-18 23:22:55> [info]: [Forward] Client socket ended
+<2024-11-18 23:22:55> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:24:03> [info]: Registered packet id: 1
+<2024-11-18 23:24:03> [info]: Registered packet id: 2
+<2024-11-18 23:24:03> [info]: Forwarding listening on port 8001
+<2024-11-18 23:24:09> [info]: Registered packet id: 1
+<2024-11-18 23:24:09> [info]: Registered packet id: 2
+<2024-11-18 23:24:09> [info]: Forwarding listening on port 8001
+<2024-11-18 23:24:13> [info]: Client connected: c-xq923wpJuEwZHyAAAB
+<2024-11-18 23:24:22> [info]: Registered packet id: 1
+<2024-11-18 23:24:22> [info]: Registered packet id: 2
+<2024-11-18 23:24:22> [info]: Forwarding listening on port 8001
+<2024-11-18 23:24:23> [info]: Client connected: OKXJcEx_M1pQd3beAAAB
+<2024-11-18 23:24:26> [info]: Registered packet id: 1
+<2024-11-18 23:24:26> [info]: Registered packet id: 2
+<2024-11-18 23:24:26> [info]: Forwarding listening on port 8001
+<2024-11-18 23:24:28> [info]: Client connected: ZO3JCtSNJ2wOjhNQAAAB
+<2024-11-18 23:25:09> [info]: Registered packet id: 1
+<2024-11-18 23:25:09> [info]: Registered packet id: 2
+<2024-11-18 23:25:09> [info]: Forwarding listening on port 8001
+<2024-11-18 23:25:09> [info]: Client connected: AGkvl1p02hU7zZTWAAAB
+<2024-11-18 23:25:13> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:25:13> [info]: Allocating port...
+<2024-11-18 23:25:13> [info]: Port allocated: 10000
+<2024-11-18 23:25:13> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:25:13> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:25:13> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:25:13> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-18 23:25:13> [info]: [Forward] Response sent completely
+<2024-11-18 23:25:13> [info]: [Forward] Forward socket ended normally
+<2024-11-18 23:25:13> [info]: [Forward] Client socket ended normally
+<2024-11-18 23:25:13> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-18 23:25:13> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:25:46> [info]: Registered packet id: 1
+<2024-11-18 23:25:46> [info]: Registered packet id: 2
+<2024-11-18 23:25:46> [info]: Forwarding listening on port 8001
+<2024-11-18 23:25:47> [info]: Client connected: oElIs1zMFvFviJiCAAAB
+<2024-11-18 23:25:56> [info]: Registered packet id: 1
+<2024-11-18 23:25:56> [info]: Registered packet id: 2
+<2024-11-18 23:25:56> [info]: Forwarding listening on port 8001
+<2024-11-18 23:25:57> [info]: Client connected: e72cgYQELjgFXFNvAAAB
+<2024-11-18 23:25:59> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:25:59> [info]: Allocating port...
+<2024-11-18 23:25:59> [info]: Port allocated: 10000
+<2024-11-18 23:25:59> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:25:59> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:25:59> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:25:59> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-18 23:25:59> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-18 23:25:59> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:25:59> [info]: [Forward] Response sent completely
+<2024-11-18 23:26:04> [info]: Registered packet id: 1
+<2024-11-18 23:26:04> [info]: Registered packet id: 2
+<2024-11-18 23:26:04> [info]: Forwarding listening on port 8001
+<2024-11-18 23:26:05> [info]: Client connected: N034KSQovUaHSX8ZAAAB
+<2024-11-18 23:26:11> [info]: Registered packet id: 1
+<2024-11-18 23:26:11> [info]: Registered packet id: 2
+<2024-11-18 23:26:11> [info]: Forwarding listening on port 8001
+<2024-11-18 23:26:12> [info]: Client connected: bCoaMqsQgEjzURW1AAAB
+<2024-11-18 23:26:15> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:26:15> [info]: Allocating port...
+<2024-11-18 23:26:15> [info]: Port allocated: 10000
+<2024-11-18 23:26:15> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:26:15> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:26:15> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:26:15> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-18 23:26:15> [info]: [Forward] Response sent completely
+<2024-11-18 23:26:15> [info]: [Forward] Forward socket ended normally
+<2024-11-18 23:26:15> [info]: [Forward] Client socket ended normally
+<2024-11-18 23:26:15> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-18 23:26:15> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:26:23> [info]: Registered packet id: 1
+<2024-11-18 23:26:23> [info]: Registered packet id: 2
+<2024-11-18 23:26:23> [info]: Forwarding listening on port 8001
+<2024-11-18 23:26:26> [info]: Registered packet id: 1
+<2024-11-18 23:26:26> [info]: Registered packet id: 2
+<2024-11-18 23:26:26> [info]: Forwarding listening on port 8001
+<2024-11-18 23:26:26> [info]: Client connected: 2RSuAW-QAIppj7zTAAAB
+<2024-11-18 23:26:32> [info]: Registered packet id: 1
+<2024-11-18 23:26:32> [info]: Registered packet id: 2
+<2024-11-18 23:26:32> [info]: Forwarding listening on port 8001
+<2024-11-18 23:26:33> [info]: Client connected: bpfmBaty3cYzm97SAAAB
+<2024-11-18 23:26:42> [info]: Registered packet id: 1
+<2024-11-18 23:26:42> [info]: Registered packet id: 2
+<2024-11-18 23:26:42> [info]: Forwarding listening on port 8001
+<2024-11-18 23:26:43> [info]: Client connected: RJ1NeMprLFIRNgIDAAAB
+<2024-11-18 23:26:44> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:26:44> [info]: Allocating port...
+<2024-11-18 23:26:44> [info]: Port allocated: 10000
+<2024-11-18 23:26:44> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:26:44> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:26:44> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:26:44> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-18 23:26:44> [info]: [Forward] Response sent completely
+<2024-11-18 23:26:44> [info]: [Forward] Forward socket ended normally
+<2024-11-18 23:26:44> [info]: [Forward] Client socket ended normally
+<2024-11-18 23:26:44> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-18 23:26:44> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:27:10> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:27:10> [info]: Allocating port...
+<2024-11-18 23:27:10> [info]: Port allocated: 10000
+<2024-11-18 23:27:10> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:27:10> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:27:10> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:27:10> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-18 23:27:10> [info]: [Forward] Response sent completely
+<2024-11-18 23:27:10> [info]: [Forward] Forward socket ended normally
+<2024-11-18 23:27:10> [error]: [Forward] Client socket error: read ECONNRESET
+<2024-11-18 23:27:10> [error]: [Forward] Client socket error: read ECONNRESET
+<2024-11-18 23:27:10> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:27:10> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:27:10> [info]: Allocating port...
+<2024-11-18 23:27:10> [info]: Port allocated: 10000
+<2024-11-18 23:27:10> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:27:10> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:27:10> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:27:10> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-18 23:27:11> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-18 23:27:11> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-18 23:27:11> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:27:11> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:27:11> [info]: Allocating port...
+<2024-11-18 23:27:11> [info]: Port allocated: 10000
+<2024-11-18 23:27:11> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:27:11> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:27:11> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:27:11> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-18 23:27:11> [info]: [Forward] Response sent completely
+<2024-11-18 23:27:11> [info]: [Forward] Forward socket ended normally
+<2024-11-18 23:27:11> [info]: [Forward] Client socket ended normally
+<2024-11-18 23:27:11> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-18 23:27:11> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:27:12> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-18 23:27:12> [info]: Allocating port...
+<2024-11-18 23:27:12> [info]: Port allocated: 10000
+<2024-11-18 23:27:12> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:27:12> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:27:12> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:27:12> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-18 23:27:12> [info]: [Forward] Response sent completely
+<2024-11-18 23:27:12> [info]: [Forward] Forward socket ended normally
+<2024-11-18 23:27:12> [info]: [Forward] Client socket ended normally
+<2024-11-18 23:27:12> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-18 23:27:12> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:29:48> [error]: [Forward] Forward socket error: read ECONNRESET
+<2024-11-18 23:29:48> [warn]: Client disconnected: RJ1NeMprLFIRNgIDAAAB
+<2024-11-18 23:32:16> [info]: Registered packet id: 1
+<2024-11-18 23:32:16> [info]: Registered packet id: 2
+<2024-11-18 23:32:16> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:33:48> [info]: Registered packet id: 1
+<2024-11-18 23:33:48> [info]: Registered packet id: 2
+<2024-11-18 23:33:48> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:33:55> [info]: Registered packet id: 1
+<2024-11-18 23:33:55> [info]: Registered packet id: 2
+<2024-11-18 23:33:55> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:34:21> [info]: Registered packet id: 1
+<2024-11-18 23:34:21> [info]: Registered packet id: 2
+<2024-11-18 23:34:21> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:34:27> [info]: Registered packet id: 1
+<2024-11-18 23:34:27> [info]: Registered packet id: 2
+<2024-11-18 23:34:27> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:36:02> [info]: Registered packet id: 1
+<2024-11-18 23:36:02> [info]: Registered packet id: 2
+<2024-11-18 23:36:02> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:42:22> [info]: Registered packet id: 1
+<2024-11-18 23:42:22> [info]: Registered packet id: 2
+<2024-11-18 23:42:22> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:42:24> [info]: Client connected: ZsqvF4MqHoONOUuWAAAB
+<2024-11-18 23:46:00> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:46:00> [info]: Port allocated: 10000
+<2024-11-18 23:46:00> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:46:00> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:46:00> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:46:24> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:46:24> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:46:29> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:46:29> [info]: Port allocated: 10000
+<2024-11-18 23:46:29> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:46:29> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:46:29> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:46:37> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:46:37> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:47:07> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:47:07> [info]: Port allocated: 10000
+<2024-11-18 23:47:07> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:47:07> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:47:07> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:47:25> [info]: Registered packet id: 1
+<2024-11-18 23:47:25> [info]: Registered packet id: 2
+<2024-11-18 23:47:25> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:47:26> [info]: Client connected: 2N4oGVrN5CSO6Pl_AAAB
+<2024-11-18 23:47:32> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:47:32> [info]: Port allocated: 10000
+<2024-11-18 23:47:32> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:47:32> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:47:32> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:47:36> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:47:36> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:47:45> [info]: Registered packet id: 1
+<2024-11-18 23:47:45> [info]: Registered packet id: 2
+<2024-11-18 23:47:45> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:47:49> [info]: Registered packet id: 1
+<2024-11-18 23:47:49> [info]: Registered packet id: 2
+<2024-11-18 23:47:49> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:47:53> [info]: Registered packet id: 1
+<2024-11-18 23:47:53> [info]: Registered packet id: 2
+<2024-11-18 23:47:53> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:47:56> [info]: Registered packet id: 1
+<2024-11-18 23:47:56> [info]: Registered packet id: 2
+<2024-11-18 23:47:56> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:47:58> [info]: Client connected: _twz2DmEwN9LXaSuAAAB
+<2024-11-18 23:47:59> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:47:59> [info]: Port allocated: 10000
+<2024-11-18 23:47:59> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:47:59> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:47:59> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:48:04> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:48:04> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:48:11> [info]: Registered packet id: 1
+<2024-11-18 23:48:11> [info]: Registered packet id: 2
+<2024-11-18 23:48:11> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:48:14> [info]: Registered packet id: 1
+<2024-11-18 23:48:14> [info]: Registered packet id: 2
+<2024-11-18 23:48:14> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:48:17> [info]: Client connected: 9Yixdo49GH2oUUuvAAAB
+<2024-11-18 23:48:48> [info]: Registered packet id: 1
+<2024-11-18 23:48:48> [info]: Registered packet id: 2
+<2024-11-18 23:48:48> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:48:51> [info]: Registered packet id: 1
+<2024-11-18 23:48:51> [info]: Registered packet id: 2
+<2024-11-18 23:48:51> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:48:52> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:48:52> [info]: Port allocated: 10000
+<2024-11-18 23:48:52> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:48:52> [warn]: No Server connected to send packet
+<2024-11-18 23:48:56> [info]: Client connected: WRejJrynyFXArQN9AAAB
+<2024-11-18 23:48:58> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:48:58> [info]: Port allocated: 10001
+<2024-11-18 23:48:58> [info]: [Setup] Forward server listening on port 10001
+<2024-11-18 23:48:58> [info]: [Forward] Connection established on port 10001
+<2024-11-18 23:48:58> [info]: [Forward] Connection established on port 10001
+<2024-11-18 23:49:13> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:49:13> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:49:22> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:49:22> [info]: Port allocated: 10001
+<2024-11-18 23:49:22> [info]: [Setup] Forward server listening on port 10001
+<2024-11-18 23:49:22> [info]: [Forward] Connection established on port 10001
+<2024-11-18 23:49:22> [info]: [Forward] Connection established on port 10001
+<2024-11-18 23:49:31> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:49:31> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:49:35> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:49:35> [info]: Port allocated: 10001
+<2024-11-18 23:49:35> [info]: [Setup] Forward server listening on port 10001
+<2024-11-18 23:49:35> [info]: [Forward] Connection established on port 10001
+<2024-11-18 23:49:35> [info]: [Forward] Connection established on port 10001
+<2024-11-18 23:49:49> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:49:49> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:50:51> [info]: Registered packet id: 1
+<2024-11-18 23:50:51> [info]: Registered packet id: 2
+<2024-11-18 23:50:51> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:50:52> [info]: Client connected: r9BWHcb9JZki_x1wAAAB
+<2024-11-18 23:50:53> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:50:53> [info]: Port allocated: 10000
+<2024-11-18 23:50:53> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:50:53> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:50:53> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:51:00> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:51:00> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:51:01> [warn]: Client disconnected: r9BWHcb9JZki_x1wAAAB
+<2024-11-18 23:51:01> [error]: [Forward] Socket error: read ECONNRESET
+<2024-11-18 23:51:02> [info]: Client connected: -aajZeSDrUcHMYXXAAAD
+<2024-11-18 23:51:04> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:51:04> [info]: Port allocated: 10000
+<2024-11-18 23:51:04> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:51:04> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:51:04> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:51:23> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:51:23> [info]: [Cleanup] Client connection closed
+<2024-11-18 23:53:37> [info]: Registered packet id: 1
+<2024-11-18 23:53:37> [info]: Registered packet id: 2
+<2024-11-18 23:53:37> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:53:42> [info]: Client connected: oFHQph02r5EsItdKAAAB
+<2024-11-18 23:54:14> [info]: Registered packet id: 1
+<2024-11-18 23:54:14> [info]: Registered packet id: 2
+<2024-11-18 23:54:14> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:54:19> [info]: Client connected: 52OKMQrw-2zs6k3kAAAB
+<2024-11-18 23:55:42> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:55:42> [info]: Port allocated: 10000
+<2024-11-18 23:55:42> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:55:42> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:55:42> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:56:21> [info]: Registered packet id: 1
+<2024-11-18 23:56:21> [info]: Registered packet id: 2
+<2024-11-18 23:56:21> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:56:25> [info]: Client connected: K8_XOXUH-Zbwg50uAAAB
+<2024-11-18 23:56:42> [info]: Registered packet id: 1
+<2024-11-18 23:56:42> [info]: Registered packet id: 2
+<2024-11-18 23:56:42> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:56:45> [info]: Client connected: VT83BKvSeevMiOL4AAAB
+<2024-11-18 23:56:51> [info]: Registered packet id: 1
+<2024-11-18 23:56:51> [info]: Registered packet id: 2
+<2024-11-18 23:56:51> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:56:51> [info]: Client connected: A2pjnAAFmXMcpv1lAAAB
+<2024-11-18 23:56:58> [info]: Registered packet id: 1
+<2024-11-18 23:56:58> [info]: Registered packet id: 2
+<2024-11-18 23:56:58> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:57:03> [info]: Client connected: fHtzkFcgFkG-73QmAAAB
+<2024-11-18 23:57:08> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:57:08> [info]: Port allocated: 10000
+<2024-11-18 23:57:08> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:57:08> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:57:08> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:57:28> [info]: Registered packet id: 1
+<2024-11-18 23:57:28> [info]: Registered packet id: 2
+<2024-11-18 23:57:28> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:57:58> [info]: Registered packet id: 1
+<2024-11-18 23:57:58> [info]: Registered packet id: 2
+<2024-11-18 23:57:58> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:57:58> [info]: Client connected: -g1u9k48WIOlp0B8AAAB
+<2024-11-18 23:58:02> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:58:02> [info]: Port allocated: 10000
+<2024-11-18 23:58:02> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:58:02> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:58:02> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:58:11> [info]: Registered packet id: 1
+<2024-11-18 23:58:11> [info]: Registered packet id: 2
+<2024-11-18 23:58:11> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:58:11> [info]: Client connected: gbzWfUEzgvIanWLaAAAB
+<2024-11-18 23:58:22> [info]: Registered packet id: 1
+<2024-11-18 23:58:22> [info]: Registered packet id: 2
+<2024-11-18 23:58:22> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:58:23> [info]: Client connected: ImSu_tJlQKMcAtO_AAAB
+<2024-11-18 23:58:27> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:58:27> [info]: Port allocated: 10000
+<2024-11-18 23:58:27> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:58:27> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:58:27> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:58:27> [info]: Forward socket ended for port 10000
+<2024-11-18 23:58:27> [info]: Cleaned up connection for port 10000
+<2024-11-18 23:58:49> [info]: Registered packet id: 1
+<2024-11-18 23:58:49> [info]: Registered packet id: 2
+<2024-11-18 23:58:49> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:58:51> [info]: Client connected: KcLP_alClMD40Zm-AAAB
+<2024-11-18 23:58:59> [info]: Registered packet id: 1
+<2024-11-18 23:58:59> [info]: Registered packet id: 2
+<2024-11-18 23:58:59> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:58:59> [info]: Client connected: eC6VTb-FrRhwNN0oAAAB
+<2024-11-18 23:59:47> [info]: Registered packet id: 1
+<2024-11-18 23:59:47> [info]: Registered packet id: 2
+<2024-11-18 23:59:47> [info]: Port forwarding service listening on port 8001
+<2024-11-18 23:59:48> [info]: Client connected: r9jTsyEXDSqOqfxNAAAB
+<2024-11-18 23:59:53> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-18 23:59:53> [info]: Port allocated: 10000
+<2024-11-18 23:59:53> [info]: [Setup] Forward server listening on port 10000
+<2024-11-18 23:59:53> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:59:53> [info]: [Forward] Connection established on port 10000
+<2024-11-18 23:59:53> [info]: Forward socket ended for port 10000
+<2024-11-18 23:59:53> [info]: Cleaned up connection for port 10000
+<2024-11-19 00:02:22> [info]: Registered packet id: 1
+<2024-11-19 00:02:22> [info]: Registered packet id: 2
+<2024-11-19 00:02:22> [info]: Port forwarding service listening on port 8001
+<2024-11-19 00:02:23> [info]: Client connected: SV6Cq6lqqgirbK-CAAAB
+<2024-11-19 00:02:25> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-19 00:02:25> [info]: Port allocated: 10000
+<2024-11-19 00:02:25> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:02:25> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:02:25> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:02:25> [info]: Forward socket ended for port 10000
+<2024-11-19 00:02:25> [info]: Forward socket closed for port 10000
+<2024-11-19 00:02:25> [info]: Cleaned up connection for port 10000
+<2024-11-19 00:02:25> [info]: Client socket closed for port 10000
+<2024-11-19 00:02:25> [info]: Cleaned up connection for port 10000
+<2024-11-19 00:02:25> [info]: Client socket closed for port 10000
+<2024-11-19 00:02:25> [info]: Forward socket closed for port 10000
+<2024-11-19 00:02:30> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:02:30> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:02:30> [info]: Forward socket ended for port 10000
+<2024-11-19 00:02:30> [info]: Forward socket closed for port 10000
+<2024-11-19 00:02:30> [info]: Cleaned up connection for port 10000
+<2024-11-19 00:02:48> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-19 00:02:48> [info]: Port allocated: 10000
+<2024-11-19 00:02:48> [error]: [Setup] TCP Server error: listen EADDRINUSE: address already in use :::10000
+<2024-11-19 00:03:01> [info]: Registered packet id: 1
+<2024-11-19 00:03:01> [info]: Registered packet id: 2
+<2024-11-19 00:03:01> [info]: Port forwarding service listening on port 8001
+<2024-11-19 00:03:03> [info]: Client connected: ctNOhy9vU4sMCrwgAAAB
+<2024-11-19 00:03:27> [info]: New connection from ::ffff:127.0.0.1
+<2024-11-19 00:03:27> [info]: Port allocated: 10000
+<2024-11-19 00:03:27> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:03:27> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:03:27> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:03:27> [info]: Forward socket ended for port 10000
+<2024-11-19 00:03:27> [info]: Forward socket closed for port 10000
+<2024-11-19 00:03:27> [info]: Cleaned up connection for port 10000
+<2024-11-19 00:03:27> [info]: Client socket closed for port 10000
+<2024-11-19 00:03:27> [info]: Cleaned up connection for port 10000
+<2024-11-19 00:03:27> [info]: Client socket closed for port 10000
+<2024-11-19 00:03:27> [info]: Forward socket closed for port 10000
+<2024-11-19 00:03:32> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:03:32> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:03:32> [info]: Forward socket ended for port 10000
+<2024-11-19 00:03:32> [info]: Forward socket closed for port 10000
+<2024-11-19 00:03:32> [info]: Cleaned up connection for port 10000
+<2024-11-19 00:04:02> [warn]: Forward socket timeout on port 10000
+<2024-11-19 00:04:02> [info]: Cleaned up connection for port 10000
+<2024-11-19 00:04:02> [info]: Forward socket closed for port 10000
+<2024-11-19 00:04:11> [info]: Registered packet id: 1
+<2024-11-19 00:04:11> [info]: Registered packet id: 2
+<2024-11-19 00:04:11> [info]: Forwarding listening on port 8001
+<2024-11-19 00:04:12> [info]: Client connected: KbHckwibRrYHLsbJAAAB
+<2024-11-19 00:04:27> [info]: Registered packet id: 1
+<2024-11-19 00:04:27> [info]: Registered packet id: 2
+<2024-11-19 00:04:27> [info]: Forwarding listening on port 8001
+<2024-11-19 00:04:56> [info]: Registered packet id: 1
+<2024-11-19 00:04:56> [info]: Registered packet id: 2
+<2024-11-19 00:04:56> [info]: Forwarding listening on port 8001
+<2024-11-19 00:05:05> [info]: Registered packet id: 1
+<2024-11-19 00:05:05> [info]: Registered packet id: 2
+<2024-11-19 00:05:05> [info]: Forwarding listening on port 8001
+<2024-11-19 00:05:44> [info]: Registered packet id: 1
+<2024-11-19 00:05:44> [info]: Registered packet id: 2
+<2024-11-19 00:05:44> [info]: Forwarding listening on port 8001
+<2024-11-19 00:05:47> [info]: Registered packet id: 1
+<2024-11-19 00:05:47> [info]: Registered packet id: 2
+<2024-11-19 00:05:47> [info]: Forwarding listening on port 8001
+<2024-11-19 00:05:49> [info]: Client connected: ZMAhLsmE7G3Ko1cWAAAB
+<2024-11-19 00:05:56> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:05:56> [info]: Allocating port...
+<2024-11-19 00:05:56> [info]: Port allocated: 10000
+<2024-11-19 00:05:56> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:05:56> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:05:56> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:05:56> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-19 00:06:03> [warn]: Client disconnected: ZMAhLsmE7G3Ko1cWAAAB
+<2024-11-19 00:06:03> [error]: [Forward] Forward socket error: read ECONNRESET
+<2024-11-19 00:06:23> [info]: Registered packet id: 1
+<2024-11-19 00:06:23> [info]: Registered packet id: 2
+<2024-11-19 00:06:23> [info]: Forwarding listening on port 8001
+<2024-11-19 00:06:27> [info]: Client connected: D1HzSAE6Si4ntTOFAAAB
+<2024-11-19 00:06:31> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:06:31> [info]: Allocating port...
+<2024-11-19 00:06:31> [info]: Port allocated: 10000
+<2024-11-19 00:06:31> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:06:31> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:06:31> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:06:31> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-19 00:06:31> [error]: [Forward] Forward socket error: read ECONNRESET
+<2024-11-19 00:08:06> [info]: Registered packet id: 1
+<2024-11-19 00:08:06> [info]: Registered packet id: 2
+<2024-11-19 00:08:06> [info]: Forwarding listening on port 8001
+<2024-11-19 00:08:06> [info]: Client connected: B7jq9b6hig45LFibAAAB
+<2024-11-19 00:08:23> [info]: Registered packet id: 1
+<2024-11-19 00:08:23> [info]: Registered packet id: 2
+<2024-11-19 00:08:23> [info]: Forwarding listening on port 8001
+<2024-11-19 00:08:31> [info]: Registered packet id: 1
+<2024-11-19 00:08:31> [info]: Registered packet id: 2
+<2024-11-19 00:08:31> [info]: Forwarding listening on port 8001
+<2024-11-19 00:08:33> [info]: Client connected: bCzjGcmlDpK47Y8AAAAB
+<2024-11-19 00:08:55> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:08:55> [info]: Allocating port...
+<2024-11-19 00:08:55> [info]: Port allocated: 10000
+<2024-11-19 00:08:55> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:08:55> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:08:55> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:08:55> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-19 00:08:59> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-19 00:08:59> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-19 00:08:59> [info]: [Cleanup] Client connection closed
+<2024-11-19 00:09:03> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-19 00:09:06> [info]: Registered packet id: 1
+<2024-11-19 00:09:06> [info]: Registered packet id: 2
+<2024-11-19 00:09:06> [info]: Forwarding listening on port 8001
+<2024-11-19 00:09:06> [info]: Client connected: U3VASXyV4mHGHDpXAAAB
