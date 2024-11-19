@@ -1,8 +1,8 @@
-import { Terminal } from "./Terminal";
+import { Terminal } from "./utils/Terminal";
 import fs from "fs";
 import { logger } from "./utils/winston";
 import PacketManager from "./Packet/PacketManager";
-import ExitHandler from "./ExitHandler";
+import ExitHandler from "./utils/ExitHandler";
 import decompress from "decompress";
 import StatusPacket from "./Packet/impl/StatusPacket";
 import PortForwarding from "./port_forwarding/PortForwarding";

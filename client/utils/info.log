@@ -856,3 +856,19 @@
 <2024-11-19 19:02:20> [info]: Attempting to reconnect (1/10)
 <2024-11-19 19:02:23> [info]: Connected to server at http://54.206.186.248:8080
 <2024-11-19 19:02:23> [info]: Connected to server at http://54.206.186.248:8080
+<2024-11-19 19:03:27> [warn]: Disconnected from server: transport close
+<2024-11-19 19:03:27> [info]: Attempting to reconnect (1/10)
+<2024-11-19 19:03:27> [warn]: Disconnected from server: transport close
+<2024-11-19 19:03:27> [info]: Attempting to reconnect (2/10)
+<2024-11-19 19:03:29> [info]: Connected to server at http://54.206.186.248:8080
+<2024-11-19 19:03:29> [info]: Connected to server at http://54.206.186.248:8080
+<2024-11-19 19:03:42> [info]: Connected to server at http://54.206.186.248:8080
+<2024-11-19 19:03:42> [info]: Client ready
+<2024-11-19 19:03:49> [info]: Received Packet from server: {"PACKET_ID":3,"PACKET_DATA":{"hostname":"54.206.186.248","externalPort":10000,"internalPort":8000}}
+<2024-11-19 19:03:49> [info]: Forwarding port 10000 to 54.206.186.248:8000
+<2024-11-19 19:03:49> [info]: Connected to forward port 54.206.186.248:10000
+<2024-11-19 19:03:49> [info]: Connected to local service on port 8000
+<2024-11-19 19:03:50> [info]: Received Packet from server: {"PACKET_ID":3,"PACKET_DATA":{"hostname":"54.206.186.248","externalPort":10000,"internalPort":8000}}
+<2024-11-19 19:03:50> [info]: Forwarding port 10000 to 54.206.186.248:8000
+<2024-11-19 19:03:50> [info]: Connected to forward port 54.206.186.248:10000
+<2024-11-19 19:03:50> [info]: Connected to local service on port 8000

@@ -1,5 +1,5 @@
-import StatusPacket from "./Packet/impl/StatusPacket";
-import PacketManager from "./Packet/PacketManager";
+import StatusPacket from "../Packet/impl/StatusPacket";
+import PacketManager from "../Packet/PacketManager";
 
 export default class ExitHandler {
     constructor() {
