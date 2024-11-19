@@ -1380,3 +1380,110 @@
 <2024-11-19 00:09:06> [info]: Registered packet id: 2
 <2024-11-19 00:09:06> [info]: Forwarding listening on port 8001
 <2024-11-19 00:09:06> [info]: Client connected: U3VASXyV4mHGHDpXAAAB
+<2024-11-19 00:11:53> [info]: Registered packet id: 1
+<2024-11-19 00:11:53> [info]: Registered packet id: 2
+<2024-11-19 00:11:53> [info]: Forwarding listening on port 8001
+<2024-11-19 00:11:56> [info]: Client connected: _MSaXdRWJPgafYU3AAAB
+<2024-11-19 00:12:16> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:12:16> [info]: Allocating port...
+<2024-11-19 00:12:16> [info]: Port allocated: 10000
+<2024-11-19 00:12:16> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:12:16> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:12:16> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:12:16> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-19 00:12:17> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-19 00:12:17> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-19 00:12:17> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-19 00:12:17> [info]: [Cleanup] Client connection closed
+<2024-11-19 00:12:34> [info]: Registered packet id: 1
+<2024-11-19 00:12:34> [info]: Registered packet id: 2
+<2024-11-19 00:12:34> [info]: Forwarding listening on port 8001
+<2024-11-19 00:12:39> [info]: Registered packet id: 1
+<2024-11-19 00:12:39> [info]: Registered packet id: 2
+<2024-11-19 00:12:39> [info]: Forwarding listening on port 8001
+<2024-11-19 00:12:42> [info]: Client connected: Iyh5JK0Js3rBQLdwAAAB
+<2024-11-19 00:15:18> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:15:18> [info]: Allocating port...
+<2024-11-19 00:15:18> [info]: Port allocated: 10000
+<2024-11-19 00:15:18> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:15:18> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:15:18> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:15:18> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-19 00:16:56> [error]: [Forward] Client socket error: write ECONNABORTED
+<2024-11-19 00:16:56> [error]: [Forward] Client socket error: write ECONNABORTED
+<2024-11-19 00:16:56> [info]: [Cleanup] Client connection closed
+<2024-11-19 00:18:07> [info]: Registered packet id: 1
+<2024-11-19 00:18:07> [info]: Registered packet id: 2
+<2024-11-19 00:18:07> [info]: Forwarding listening on port 8001
+<2024-11-19 00:18:12> [info]: Client connected: OPCQqtyER4b6CG27AAAB
+<2024-11-19 00:18:28> [info]: Registered packet id: 1
+<2024-11-19 00:18:28> [info]: Registered packet id: 2
+<2024-11-19 00:18:28> [info]: Forwarding listening on port 8001
+<2024-11-19 00:18:31> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:18:31> [info]: Allocating port...
+<2024-11-19 00:18:31> [info]: Port allocated: 10000
+<2024-11-19 00:18:31> [warn]: No Server connected to send packet
+<2024-11-19 00:18:31> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:18:31> [info]: Client connected: anpV61QCG2ul96v7AAAB
+<2024-11-19 00:18:35> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:18:35> [info]: Allocating port...
+<2024-11-19 00:18:35> [info]: Port allocated: 10001
+<2024-11-19 00:18:35> [info]: [Setup] Forward server listening on port 10001
+<2024-11-19 00:18:35> [info]: [Forward] Connection established on port 10001
+<2024-11-19 00:18:35> [info]: [Forward] Connection established on port 10001
+<2024-11-19 00:18:35> [info]: [Forward] Forward socket ended normally
+<2024-11-19 00:18:56> [info]: Registered packet id: 1
+<2024-11-19 00:18:56> [info]: Registered packet id: 2
+<2024-11-19 00:18:56> [info]: Forwarding listening on port 8001
+<2024-11-19 00:19:00> [info]: Client connected: XE0TpmIxuC0FiiPEAAAB
+<2024-11-19 00:19:01> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:19:01> [info]: Allocating port...
+<2024-11-19 00:19:01> [info]: Port allocated: 10000
+<2024-11-19 00:19:01> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:19:01> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:19:01> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:19:01> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-19 00:21:18> [info]: Registered packet id: 1
+<2024-11-19 00:21:18> [info]: Registered packet id: 2
+<2024-11-19 00:21:18> [info]: Forwarding listening on port 8001
+<2024-11-19 00:21:18> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:21:18> [info]: Allocating port...
+<2024-11-19 00:21:18> [info]: Port allocated: 10000
+<2024-11-19 00:21:18> [warn]: No Server connected to send packet
+<2024-11-19 00:21:18> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:21:19> [info]: Client connected: vKHxaWdSRhrnR19-AAAB
+<2024-11-19 00:21:22> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:21:22> [info]: Allocating port...
+<2024-11-19 00:21:22> [info]: Port allocated: 10001
+<2024-11-19 00:21:22> [info]: [Setup] Forward server listening on port 10001
+<2024-11-19 00:21:22> [info]: [Forward] Connection established on port 10001
+<2024-11-19 00:21:22> [info]: [Forward] Connection established on port 10001
+<2024-11-19 00:21:22> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-19 00:21:39> [info]: Registered packet id: 1
+<2024-11-19 00:21:39> [info]: Registered packet id: 2
+<2024-11-19 00:21:39> [info]: Forwarding listening on port 8001
+<2024-11-19 00:21:39> [info]: Client connected: VnJdrGOBeImS-5JMAAAB
+<2024-11-19 00:21:48> [info]: Registered packet id: 1
+<2024-11-19 00:21:48> [info]: Registered packet id: 2
+<2024-11-19 00:21:48> [info]: Forwarding listening on port 8001
+<2024-11-19 00:21:53> [info]: Registered packet id: 1
+<2024-11-19 00:21:53> [info]: Registered packet id: 2
+<2024-11-19 00:21:53> [info]: Forwarding listening on port 8001
+<2024-11-19 00:21:57> [info]: Registered packet id: 1
+<2024-11-19 00:21:57> [info]: Registered packet id: 2
+<2024-11-19 00:21:57> [info]: Forwarding listening on port 8001
+<2024-11-19 00:22:11> [info]: Registered packet id: 1
+<2024-11-19 00:22:11> [info]: Registered packet id: 2
+<2024-11-19 00:22:11> [info]: Forwarding listening on port 8001
+<2024-11-19 00:22:23> [info]: Client connected: l2G-_k4xHOY9qh_JAAAB
+<2024-11-19 00:22:26> [info]: Recived connection from ::ffff:127.0.0.1
+<2024-11-19 00:22:26> [info]: Allocating port...
+<2024-11-19 00:22:26> [info]: Port allocated: 10000
+<2024-11-19 00:22:26> [info]: [Setup] Forward server listening on port 10000
+<2024-11-19 00:22:26> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:22:26> [info]: [Forward] Connection established on port 10000
+<2024-11-19 00:22:26> [info]: [Forward] Forward socket ended - waiting for complete response
+<2024-11-19 00:22:40> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-19 00:22:40> [info]: [Forward] Client socket ended - waiting for complete response
+<2024-11-19 00:22:40> [info]: [Cleanup] Client connection closed
+<2024-11-19 00:23:34> [warn]: Client disconnected: l2G-_k4xHOY9qh_JAAAB

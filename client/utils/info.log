@@ -774,3 +774,62 @@
 <2024-11-19 00:09:03> [warn]: Disconnected from server: transport close
 <2024-11-19 00:09:04> [error]: Connection error: xhr poll error
 <2024-11-19 00:09:06> [info]: Connected to server
+<2024-11-19 00:11:45> [warn]: Disconnected from server: transport close
+<2024-11-19 00:11:46> [error]: Connection error: xhr poll error
+<2024-11-19 00:11:49> [error]: Connection error: xhr poll error
+<2024-11-19 00:11:56> [info]: Connected to server
+<2024-11-19 00:12:16> [info]: Received Packet from server: {"PACKET_ID":3,"PACKET_DATA":{"hostname":"localhost","externalPort":10000,"internalPort":25565}}
+<2024-11-19 00:12:16> [info]: Forwarding port 10000 to localhost:25565
+<2024-11-19 00:12:16> [info]: Connected to forward port localhost:10000
+<2024-11-19 00:12:16> [info]: Connected to local service on port 25565
+<2024-11-19 00:12:30> [warn]: Disconnected from server: transport close
+<2024-11-19 00:12:31> [error]: Connection error: xhr poll error
+<2024-11-19 00:12:33> [error]: Connection error: xhr poll error
+<2024-11-19 00:12:37> [error]: Connection error: xhr poll error
+<2024-11-19 00:12:42> [info]: Connected to server
+<2024-11-19 00:15:18> [info]: Received Packet from server: {"PACKET_ID":3,"PACKET_DATA":{"hostname":"localhost","externalPort":10000,"internalPort":25565}}
+<2024-11-19 00:15:18> [info]: Forwarding port 10000 to localhost:25565
+<2024-11-19 00:15:18> [info]: Connected to forward port localhost:10000
+<2024-11-19 00:15:18> [info]: Connected to local service on port 25565
+<2024-11-19 00:18:00> [warn]: Disconnected from server: transport close
+<2024-11-19 00:18:01> [error]: Connection error: xhr poll error
+<2024-11-19 00:18:04> [error]: Connection error: xhr poll error
+<2024-11-19 00:18:07> [error]: Connection error: xhr poll error
+<2024-11-19 00:18:12> [info]: Connected to server
+<2024-11-19 00:18:24> [warn]: Disconnected from server: transport close
+<2024-11-19 00:18:26> [error]: Connection error: xhr poll error
+<2024-11-19 00:18:27> [error]: Connection error: xhr poll error
+<2024-11-19 00:18:31> [info]: Connected to server
+<2024-11-19 00:18:35> [info]: Received Packet from server: {"PACKET_ID":3,"PACKET_DATA":{"hostname":"localhost","externalPort":10001,"internalPort":25565}}
+<2024-11-19 00:18:35> [info]: Forwarding port 10001 to localhost:25565
+<2024-11-19 00:18:35> [info]: Connected to forward port localhost:10001
+<2024-11-19 00:18:35> [info]: Connected to local service on port 25565
+<2024-11-19 00:18:52> [warn]: Disconnected from server: transport close
+<2024-11-19 00:18:53> [error]: Connection error: xhr poll error
+<2024-11-19 00:18:56> [error]: Connection error: xhr poll error
+<2024-11-19 00:19:00> [info]: Connected to server
+<2024-11-19 00:19:01> [info]: Received Packet from server: {"PACKET_ID":3,"PACKET_DATA":{"hostname":"localhost","externalPort":10000,"internalPort":25565}}
+<2024-11-19 00:19:01> [info]: Forwarding port 10000 to localhost:25565
+<2024-11-19 00:19:01> [info]: Connected to forward port localhost:10000
+<2024-11-19 00:19:01> [info]: Connected to local service on port 25565
+<2024-11-19 00:21:15> [warn]: Disconnected from server: transport close
+<2024-11-19 00:21:16> [error]: Connection error: xhr poll error
+<2024-11-19 00:21:19> [info]: Connected to server
+<2024-11-19 00:21:22> [info]: Received Packet from server: {"PACKET_ID":3,"PACKET_DATA":{"hostname":"localhost","externalPort":10001,"internalPort":25565}}
+<2024-11-19 00:21:22> [info]: Forwarding port 10001 to localhost:25565
+<2024-11-19 00:21:22> [info]: Connected to forward port localhost:10001
+<2024-11-19 00:21:22> [info]: Connected to local service on port 25565
+<2024-11-19 00:21:36> [warn]: Disconnected from server: transport close
+<2024-11-19 00:21:37> [error]: Connection error: xhr poll error
+<2024-11-19 00:21:39> [info]: Connected to server
+<2024-11-19 00:21:40> [warn]: Disconnected from server: transport close
+<2024-11-19 00:21:41> [error]: Connection error: xhr poll error
+<2024-11-19 00:21:43> [error]: Connection error: xhr poll error
+<2024-11-19 00:21:46> [error]: Connection error: xhr poll error
+<2024-11-19 00:21:51> [error]: Connection error: xhr poll error
+<2024-11-19 00:21:56> [error]: Connection error: xhr poll error
+<2024-11-19 00:22:23> [info]: Connected to server
+<2024-11-19 00:22:26> [info]: Received Packet from server: {"PACKET_ID":3,"PACKET_DATA":{"hostname":"localhost","externalPort":10000,"internalPort":25565}}
+<2024-11-19 00:22:26> [info]: Forwarding port 10000 to localhost:25565
+<2024-11-19 00:22:26> [info]: Connected to forward port localhost:10000
+<2024-11-19 00:22:26> [info]: Connected to local service on port 25565

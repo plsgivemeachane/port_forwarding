@@ -3,7 +3,8 @@ import PacketManager from "../Packet/PacketManager";
 import { logger } from "../utils/winston";
 import net from 'net'
 
-const INTERNALPORT = 8000
+const BASEPORT = 10000
+const INTERNALPORT = 25565
 const LISTENPORT = 8001
 
 export default class PortForwardingManager {
@@ -22,7 +23,7 @@ export default class PortForwardingManager {
     }
 
     private getFreePort() {
-        let port = 10000 // Base Port
+        let port = BASEPORT
         while (this.usagePort.includes(port)) {
             port++
         }
@@ -30,117 +31,65 @@ export default class PortForwardingManager {
         return port
     }
 
+    private clearPort(port: number) {
+        this.usagePort = this.usagePort.filter(p => p !== port);
+        this.listenersMap.delete(port);
+    }
+
     public async start() {
         // Listen on 
         this.listener = net.createServer((clientSocket) => {
-            logger.info(`Recived connection from ${clientSocket.remoteAddress}`);
+            logger.info(`[Tunnel] Recived connection from ${clientSocket.remoteAddress}`);
 
-            logger.info("Allocating port...");
+            logger.info("[Tunnel] Allocating port...");
             const allowedPort = this.getFreePort()
-            logger.info(`Port allocated: ${allowedPort}`);
-
-            // Keep sockets alive
+            logger.info(`[Tunnel] Port allocated: ${allowedPort}`);
 
             // Then create server for that port
             let tcpSocket = net.createServer((forwardSocket) => {
-                logger.info(`[Forward] Connection established on port ${allowedPort}`);
+                logger.info(`[Tunnel] Connection established on port ${allowedPort}`);
 
                 forwardSocket.setKeepAlive(true);
                 clientSocket.setKeepAlive(true);
-
-                // Disable timeouts
                 forwardSocket.setTimeout(0);
                 clientSocket.setTimeout(0);
 
-                let responseComplete = false;
-                let responseBuffer = Buffer.alloc(0);
-
                 // Forward the original client request
-                forwardSocket.on('data', (data) => {
-                    console.log("[Forward] Received from client:");
-                    console.log(data.toString('utf8'));
-                    clientSocket.write(data);
-                    // Accumulate response
-                    responseBuffer = Buffer.concat([responseBuffer, data]);
-
-                    // Check if we have a complete response
-                    const responseStr = responseBuffer.toString();
-                    if (responseStr.includes('\r\n\r\n')) {
-                        // If there's Content-Length, check if we have all the content
-                        const match = responseStr.match(/Content-Length: (\d+)/i);
-                        if (match) {
-                            const contentLength = parseInt(match[1]);
-                            const headerEnd = responseStr.indexOf('\r\n\r\n') + 4;
-                            const bodyLength = responseBuffer.length - headerEnd;
-
-                            if (bodyLength >= contentLength) {
-                                responseComplete = true;
-                                clientSocket.write(responseBuffer, () => {
-                                    logger.info("[Forward] Response sent completely");
-                                    // Only now allow the connection to close if needed
-                                    responseBuffer = Buffer.alloc(0);
-                                });
-                            }
-                        }
-                    }
-
-                });
-
-                // Forward the Thunder Client request to local service
-                clientSocket.on('data', (data) => {
-                    console.log("[Forward] Received from GET Client:");
-                    console.log(data.toString('utf8'));
-                    forwardSocket.write(data);
-                });
-
-                // Handle socket closures
-                forwardSocket.on('end', () => {
-                    if (responseComplete) {
-                        logger.info(`[Forward] Forward socket ended normally`);
-                        clientSocket.end();
-                    } else {
-                        logger.info(`[Forward] Forward socket ended - waiting for complete response`);
-                    }
-                });
+                forwardSocket.pipe(clientSocket, { end: false });
+                clientSocket.pipe(forwardSocket, { end: false });
 
                 clientSocket.on('end', () => {
-                    if (responseComplete) {
-                        logger.info(`[Forward] Client socket ended normally`);
-                        forwardSocket.end();
-                    } else {
-                        logger.info(`[Forward] Client socket ended - waiting for complete response`);
-                    }
+                    forwardSocket.end();
+                    logger.info(`[Tunnel] Client socket ended`);
                 });
 
                 // Handle errors
                 forwardSocket.on('error', (error) => {
-                    logger.error(`[Forward] Forward socket error: ${error.message}`);
+                    logger.error(`[Tunnel] Forward socket error: ${error.message}`);
                     clientSocket.end();
                 });
 
                 clientSocket.on('error', (error) => {
-                    logger.error(`[Forward] Client socket error: ${error.message}`);
+                    logger.error(`[Tunnel] Client socket error: ${error.message}`);
                     forwardSocket.end();
                 });
             });
 
             tcpSocket.listen(allowedPort, () => {
-                logger.info(`[Setup] Forward server listening on port ${allowedPort}`);
+                logger.info(`[Tunnel] Forward server listening on port ${allowedPort}`);
             });
 
             tcpSocket.on('error', (error) => {
-                logger.error(`[Setup] TCP Server error: ${error.message}`);
-                this.usagePort = this.usagePort.filter(p => p !== allowedPort);
-                this.listenersMap.delete(allowedPort);
+                logger.error(`[Tunnel] TCP Server error: ${error.message}`);
+                this.clearPort(allowedPort);
             });
 
             this.listenersMap.set(allowedPort, tcpSocket)
 
             // Cleanup when the initial connection closes
             clientSocket.on('close', () => {
-                logger.info(`[Cleanup] Client connection closed`);
-                this.usagePort = this.usagePort.filter(p => p !== allowedPort);
-                this.listenersMap.delete(allowedPort);
+                logger.info(`[Tunnel] Client connection closed`);
+                this.clearPort(allowedPort);
                 tcpSocket.close();
             });
 
@@ -149,11 +98,7 @@ export default class PortForwardingManager {
                 externalPort: allowedPort,
                 internalPort: INTERNALPORT
             });
-
-            // Client -> 8000 -> server.
-            // Server allowcating and reverse forwarding the 8000 port
-            // Serve2 get the 8000 port and forward it to 8000
-
+            
             PacketManager.getInstance().sendPacket(portPacket);
         })
 
