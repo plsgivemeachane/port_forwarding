@@ -34,6 +34,12 @@ export default class PacketManager {
         this.sendPacket(packet);
     }
 
+    public async waitForConnection() {
+        while (!this.connected) {
+            await new Promise((resolve) => setTimeout(resolve, 500));
+        }
+    }
+
     public setup() {
         this.SOCKET = io(SERVER_URL, {
             reconnection: true,
@@ -59,9 +65,9 @@ export default class PacketManager {
             }
 
             // Setup ping interval
-            this.intervalId = setInterval(() => {
-                this.ping();
-            }, 30000); // Ping every 30 seconds
+            // this.intervalId = setInterval(() => {
+            //     this.ping();
+            // }, 30000); // Ping every 30 seconds
         });
 
         this.SOCKET.on("disconnect", (reason: string) => {

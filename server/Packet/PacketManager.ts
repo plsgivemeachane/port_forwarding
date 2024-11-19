@@ -33,7 +33,7 @@ export default class PacketManager {
 
         // Setup here
         logger.info("Setting up new server")
-        this.setuoDefaultListeners(this.currentSocket);
+        this.setupDefaultListeners(this.currentSocket);
     }
 
     private removeSocket(socket: Socket) {
@@ -45,7 +45,7 @@ export default class PacketManager {
         return this.currentSocket != undefined;
     }
 
-    private setuoDefaultListeners(socket: Socket) {
+    private setupDefaultListeners(socket: Socket) {
         // Handle client messages
         socket.on('packet', (data) => {
             // Recived packet from client
@@ -74,7 +74,7 @@ export default class PacketManager {
 
     public addSocket(socket: any) {
         logger.info(`Client connected: ${socket.id}`);
-        this.setuoDefaultListeners(socket);
+        this.setupDefaultListeners(socket);
         this.sockets.push(socket);
         this.findFreedSocket();
     }
@@ -91,6 +91,10 @@ export default class PacketManager {
     public setReadySocket(socket: Socket) {
         logger.info(`Client ready: ${socket.id}`);
         this.readySockets.add(socket);
+
+        if(!this.currentSocket) {
+            this.findFreedSocket();
+        }
     }
 
     public removeReadySocket(socket: Socket) {
