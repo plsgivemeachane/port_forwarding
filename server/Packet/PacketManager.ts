@@ -8,6 +8,7 @@ import Subscriber from "../utils/Subscriber";
 
 export default class PacketManager {
     private sockets: Socket[] = [];
+    private readySockets: Set<Socket> = new Set();
     private currentSocket: Socket | undefined;
     private observer: any = new Observable<Packet<any>>();
     private static instance: PacketManager;
@@ -21,7 +22,26 @@ export default class PacketManager {
         return this.instance;
     }
 
-    private setupListeners(socket: Socket) {
+    private findFreedSocket(): Socket | undefined {
+        if(this.currentSocket) {
+            return;
+        }
+        
+        this.currentSocket = this.readySockets.size == 0 ? undefined : this.readySockets.values().next().value;
+
+        if(!this.currentSocket) return;
+
+        // Setup here
+        logger.info("Setting up new server")
+        this.setuoDefaultListeners(this.currentSocket);
+    }
+
+    private removeSocket(socket: Socket) {
+        this.sockets = this.sockets.filter((s) => s.id != socket.id);
+        this.removeReadySocket(socket);
+    }
+
+    private setuoDefaultListeners(socket: Socket) {
         // Handle client messages
         socket.on('packet', (data) => {
             // Recived packet from client
@@ -31,11 +51,15 @@ export default class PacketManager {
                 packet.handlePacket(socket);    
             }
         });
+
         // Handle client disconnection
         socket.on('disconnect', () => {
             logger.warn(`Client disconnected: ${socket.id}`);
+            this.removeSocket(socket);
             if(this.currentSocket && this.currentSocket.id == socket.id) {
+                logger.warn("Server socket closed")
                 this.currentSocket = undefined;
+                this.findFreedSocket(); // Try to find a new socket
             }
         });
     }
@@ -46,11 +70,9 @@ export default class PacketManager {
 
     public addSocket(socket: any) {
         logger.info(`Client connected: ${socket.id}`);
-        if(!this.currentSocket) {
-            this.currentSocket = socket;
-        }
+        this.setuoDefaultListeners(socket);
         this.sockets.push(socket);
-        this.setupListeners(socket);
+        this.findFreedSocket();
     }
 
     public sendPacket(packet: Packet<any>) {
@@ -60,5 +82,17 @@ export default class PacketManager {
         }
 
         this.currentSocket.emit("packet", packet.serialize());
+    }
+
+    public setReadySocket(socket: Socket) {
+        logger.info(`Client ready: ${socket.id}`);
+        this.readySockets.add(socket);
+    }
+
+    public removeReadySocket(socket: Socket) {
+        if(this.readySockets.has(socket)) {
+            logger.info(`Client removed: ${socket.id}`);
+            this.readySockets.delete(socket);
+        }
     }
 }

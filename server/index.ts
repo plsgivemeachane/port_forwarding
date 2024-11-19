@@ -9,6 +9,8 @@ import multer from 'multer';
 import PacketManager from './Packet/PacketManager';
 import { registerPackets } from './Packet/PacketRegistry';
 import PortForwardingManager from './port_fowarding/port_forwarding_manger';
+import ExitHandler from './ExitHandler';
+import { logger } from './utils/winston';
 
 const MINECRAFT_DIR = process.env.MINECRAFT_DIR || ".minecraft";
 const PORT = process.env.PORT || 8080;
@@ -28,7 +30,10 @@ registerPackets();
 // Initialize packet manager
 const packetManager = PacketManager.getInstance();
 
+// Initialize port forwarding
 PortForwardingManager.getInstance().start();
+
+new ExitHandler().setup();
 
 // Configure multer for file uploads
 const storage = multer.diskStorage({
@@ -78,7 +83,7 @@ app.get('/download', async (req: express.Request, res: express.Response) => {
 
         // Listen for all archive data to be written
         output.on('close', function() {
-            console.log('Archive created, starting download...');
+            logger.info('Archive created, starting download...');
             // Stream the file to response
             const fileStream = fs.createReadStream(zipPath);
             res.setHeader('Content-Type', 'application/zip');
@@ -126,7 +131,7 @@ app.post('/upload', upload.single('file'), async (req, res) => {
         }
         
         // File has been saved by multer
-        console.log('File uploaded:', req.file.path);
+        logger.info('File uploaded:', req.file.path);
         
         // Notify connected clients
         io.emit('fileUpdated', {
@@ -137,12 +142,12 @@ app.post('/upload', upload.single('file'), async (req, res) => {
         res.status(200).send('File uploaded successfully');
         return;
     } catch (error) {
-        console.error('Error uploading file:', error);
+        logger.error('Error uploading file:', error);
         res.status(500).send('Error uploading file');
         return;
     }
 });
 
 httpServer.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
+    logger.info(`Server running at http://localhost:${PORT}`);
 });

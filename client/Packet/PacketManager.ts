@@ -1,5 +1,6 @@
 import { logger } from "../utils/winston";
 import PingPacket from "./impl/PingPacket";
+import StatusPacket from "./impl/StatusPacket";
 import type Packet from "./Packet";
 import PacketParser from "./PacketParser";
 import io from "socket.io-client";
@@ -34,6 +35,14 @@ export default class PacketManager {
         this.SOCKET.on("connect", () => {
             logger.info("Connected to server");
             this.connected = true;
+
+            const initialPacket = new StatusPacket({
+                status: "new",
+                message: "Client connected",
+            })
+
+            this.sendPacket(initialPacket);
+
             if(this.intervalId) {
                 clearInterval(this.intervalId);
             }
