@@ -11,6 +11,7 @@
 /client/.env
 
 /server/logs
-/client/logs
+/server/utils/info.log
+/server/utils/info.log
 
 /server/.minecraft.zip
