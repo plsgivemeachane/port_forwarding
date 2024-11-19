@@ -6,3 +6,11 @@
 
 /client/.minecraft
 /server/.minecraft
+
+/server/.env
+/client/.env
+
+/server/logs
+/client/logs
+
+/server/.minecraft.zip
