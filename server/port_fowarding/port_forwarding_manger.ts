@@ -49,6 +49,15 @@ export default class PortForwardingManager {
         // Listen on 
         this.listener = net.createServer((clientSocket) => {
             logger.info(`[Tunnel] Recived connection from ${clientSocket.remoteAddress}`);
+
+            // Check if there are any clients
+            if(!PacketManager.getInstance().isServerReady()) {
+                // Close this connection
+                logger.warn(`[Tunnel] Cannot find any client`)
+                clientSocket.end();
+                return;
+            }
+
             const allowedPort = this.getFreePort()
             logger.info(`[Tunnel] Port allocated: ${allowedPort}`);
             // Then create server for that port

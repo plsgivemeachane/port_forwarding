@@ -41,6 +41,10 @@ export default class PacketManager {
         this.removeReadySocket(socket);
     }
 
+    public isServerReady(): boolean {
+        return this.currentSocket != undefined;
+    }
+
     private setuoDefaultListeners(socket: Socket) {
         // Handle client messages
         socket.on('packet', (data) => {
