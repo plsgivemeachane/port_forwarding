@@ -4,12 +4,21 @@ import StatusPacket from "./impl/StatusPacket";
 import type Packet from "./Packet";
 import PacketParser from "./PacketParser";
 import io from "socket.io-client";
+import dotenv from 'dotenv';
+
+// Load environment variables
+dotenv.config();
+
+const SERVER_URL = process.env.SERVER_URL || 'http://localhost:8080';
+const RECONNECT_ATTEMPTS = process.env.SOCKET_RECONNECT_ATTEMPTS ? parseInt(process.env.SOCKET_RECONNECT_ATTEMPTS) : 10;
+const RECONNECT_DELAY = process.env.SOCKET_RECONNECT_DELAY ? parseInt(process.env.SOCKET_RECONNECT_DELAY) : 2000;
 
 export default class PacketManager {
     private SOCKET: SocketIOClient.Socket | undefined;
     private connected = false;
     private intervalId: NodeJS.Timer | undefined;
     private static instance: PacketManager;
+    private reconnectAttempts = 0;
 
     constructor() {}
 
@@ -26,15 +35,17 @@ export default class PacketManager {
     }
 
     public setup() {
-        this.SOCKET = io("http://localhost:8080", {
+        this.SOCKET = io(SERVER_URL, {
             reconnection: true,
-            reconnectionAttempts: 5,
-            reconnectionDelay: 1000,
+            reconnectionAttempts: RECONNECT_ATTEMPTS,
+            reconnectionDelay: RECONNECT_DELAY,
+            timeout: 10000
         });
 
         this.SOCKET.on("connect", () => {
-            logger.info("Connected to server");
+            logger.info(`Connected to server at ${SERVER_URL}`);
             this.connected = true;
+            this.reconnectAttempts = 0;
 
             const initialPacket = new StatusPacket({
                 status: "new",
@@ -47,9 +58,10 @@ export default class PacketManager {
                 clearInterval(this.intervalId);
             }
 
-            // this.intervalId = setInterval(() => {
-            //     this.ping();
-            // }, 5000);
+            // Setup ping interval
+            this.intervalId = setInterval(() => {
+                this.ping();
+            }, 30000); // Ping every 30 seconds
         });
 
         this.SOCKET.on("disconnect", (reason: string) => {
@@ -58,6 +70,17 @@ export default class PacketManager {
 
             if(this.intervalId) {
                 clearInterval(this.intervalId);
+            }
+
+            // Try to reconnect if max attempts not reached
+            if (this.reconnectAttempts < RECONNECT_ATTEMPTS) {
+                this.reconnectAttempts++;
+                logger.info(`Attempting to reconnect (${this.reconnectAttempts}/${RECONNECT_ATTEMPTS})`);
+                setTimeout(() => {
+                    if (!this.connected) {
+                        this.setup();
+                    }
+                }, RECONNECT_DELAY);
             }
         });
 
@@ -69,8 +92,13 @@ export default class PacketManager {
         this.SOCKET.on("packet", (data: any) => {
             logger.info(`Received Packet from server: ${JSON.stringify(data)}`);
             const packet = PacketParser.parse(data);
-            packet.handlePacket(this.SOCKET);
-            // TODO Handleing packet recived
+            if (packet) {
+                try {
+                    packet.handlePacket(this.SOCKET);
+                } catch (error) {
+                    logger.error(`Error handling packet: ${error}`);
+                }
+            }
         });
     }
 
@@ -79,7 +107,11 @@ export default class PacketManager {
             throw new Error("Socket is not connected");
         }
 
-        this.SOCKET.emit("packet", packet.serialize());
+        try {
+            this.SOCKET.emit("packet", packet.serialize());
+        } catch (error) {
+            logger.error(`Error sending packet: ${error}`);
+            throw error;
+        }
     }
 }
-
