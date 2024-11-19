@@ -14,6 +14,7 @@ import { logger } from './utils/winston';
 
 const MINECRAFT_DIR = process.env.MINECRAFT_DIR || ".minecraft";
 const PORT = process.env.PORT || 8080;
+const SERVERHOSTNAME = process.env.SERVERHOSTNAME || "localhost";
 
 const app = express();
 const httpServer = createServer(app);
@@ -149,5 +150,5 @@ app.post('/upload', upload.single('file'), async (req, res) => {
 });
 
 httpServer.listen(PORT, () => {
-    logger.info(`Server running at http://localhost:${PORT}`);
+    logger.info(`Server running at ${SERVERHOSTNAME}:${PORT}`);
 });
