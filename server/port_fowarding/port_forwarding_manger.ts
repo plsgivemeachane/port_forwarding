@@ -16,7 +16,13 @@ export default class PortForwardingManager {
     private listenersMap: Map<number, net.Server> = new Map()
     private listener: net.Server | undefined
 
-    private constructor() { }
+    private constructor() { 
+        logger.info("Server setup:")
+        logger.info(`Base port: ${BASEPORT}`)
+        logger.info(`Internal port: ${INTERNALPORT}`)
+        logger.info(`Listen port: ${LISTENPORT}`)
+        logger.info(`Server hostname: ${SERVERHOSTNAME}`)
+    }
 
     public static getInstance() {
         if (!this.instance) {
