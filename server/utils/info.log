@@ -1487,3 +1487,34 @@
 <2024-11-19 00:22:40> [info]: [Forward] Client socket ended - waiting for complete response
 <2024-11-19 00:22:40> [info]: [Cleanup] Client connection closed
 <2024-11-19 00:23:34> [warn]: Client disconnected: l2G-_k4xHOY9qh_JAAAB
+<2024-11-24 22:29:40> [info]: Registered packet id: 1
+<2024-11-24 22:29:40> [info]: Registered packet id: 2
+<2024-11-24 22:29:40> [info]: Registered packet id: 4
+<2024-11-24 22:29:40> [info]: Registered packet id: 5
+<2024-11-24 22:29:40> [info]: Server setup:
+<2024-11-24 22:29:40> [info]: Base port: 10000
+<2024-11-24 22:29:40> [info]: Server hostname: 127.0.0.1
+<2024-11-24 22:29:56> [info]: Registered packet id: 1
+<2024-11-24 22:29:56> [info]: Registered packet id: 2
+<2024-11-24 22:29:56> [info]: Registered packet id: 4
+<2024-11-24 22:29:56> [info]: Registered packet id: 5
+<2024-11-24 22:29:56> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 22:33:51> [info]: Registered packet id: 1
+<2024-11-24 22:33:51> [info]: Registered packet id: 2
+<2024-11-24 22:33:51> [info]: Registered packet id: 4
+<2024-11-24 22:33:51> [info]: Registered packet id: 5
+<2024-11-24 22:33:51> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 22:34:11> [info]: Registered packet id: 1
+<2024-11-24 22:34:11> [info]: Registered packet id: 2
+<2024-11-24 22:34:11> [info]: Registered packet id: 4
+<2024-11-24 22:34:11> [info]: Registered packet id: 5
+<2024-11-24 22:34:11> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 22:36:40> [info]: Client connected: xI3rkSFZjy-H3u-6AAAB
+<2024-11-24 22:36:43> [warn]: Client disconnected: xI3rkSFZjy-H3u-6AAAB
+<2024-11-24 22:43:10> [info]: Client connected: nVUyEuAduwLbVn42AAAD
+<2024-11-24 22:43:18> [info]: Reserved port for nVUyEuAduwLbVn42AAAD : 8000
+<2024-11-24 22:43:18> [info]: Server setup:
+<2024-11-24 22:43:18> [info]: Base port: 10000
+<2024-11-24 22:43:18> [info]: Server hostname: 127.0.0.1
+<2024-11-24 22:43:18> [info]: [Tunnel] Port allocated for connection: 10000
+<2024-11-24 22:43:18> [info]: Forwarding listening on port 10000

@@ -13,10 +13,6 @@ export default class CStatusPacket extends Packet<CStatusPacketDataType> {
     }
 
     handlePacket(socket: Socket) {
-        if(this.getPacketData().status == "set") {
-            PacketManager.getInstance().setReadySocket(socket);
-        } else {
-            PacketManager.getInstance().removeReadySocket(socket);
-        }
+
     }
 }

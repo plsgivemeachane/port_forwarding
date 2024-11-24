@@ -872,3 +872,12 @@
 <2024-11-19 19:03:50> [info]: Forwarding port 10000 to 54.206.186.248:8000
 <2024-11-19 19:03:50> [info]: Connected to forward port 54.206.186.248:10000
 <2024-11-19 19:03:50> [info]: Connected to local service on port 8000
+<2024-11-24 22:43:10> [info]: Connected to server at http://localhost:8080
+<2024-11-24 22:43:10> [info]: Command System Ready. Available commands:
+<2024-11-24 22:43:10> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 22:43:10> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 22:43:10> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 22:43:15> [error]: Invalid protocol. Must be one of: tcp, udp, http, https
+<2024-11-24 22:43:18> [info]: Executing command: open tcp port 8000
+<2024-11-24 22:43:24> [warn]: Disconnected from server: transport close
+<2024-11-24 22:43:24> [info]: Attempting to reconnect (1/10)

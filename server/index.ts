@@ -32,7 +32,7 @@ registerPackets();
 const packetManager = PacketManager.getInstance();
 
 // Initialize port forwarding
-PortForwardingManager.getInstance().start();
+// PortForwardingManager.getInstance().start();
 
 new ExitHandler().setup();
 

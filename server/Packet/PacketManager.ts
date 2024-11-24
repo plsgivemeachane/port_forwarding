@@ -38,7 +38,6 @@ export default class PacketManager {
 
     private removeSocket(socket: Socket) {
         this.sockets = this.sockets.filter((s) => s.id != socket.id);
-        this.removeReadySocket(socket);
     }
 
     public isServerReady(): boolean {
@@ -76,26 +75,9 @@ export default class PacketManager {
         logger.info(`Client connected: ${socket.id}`);
         this.setupDefaultListeners(socket);
         this.sockets.push(socket);
-        this.findFreedSocket();
     }
 
     public sendPacket(client: Socket, packet: Packet<any>) {
         client.emit("packet", packet.serialize());
-    }
-
-    public setReadySocket(socket: Socket) {
-        logger.info(`Client ready: ${socket.id}`);
-        this.readySockets.add(socket);
-
-        if(!this.currentSocket) {
-            this.findFreedSocket();
-        }
-    }
-
-    public removeReadySocket(socket: Socket) {
-        if(this.readySockets.has(socket)) {
-            logger.info(`Client removed: ${socket.id}`);
-            this.readySockets.delete(socket);
-        }
     }
 }

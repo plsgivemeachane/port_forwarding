@@ -4,10 +4,10 @@ import StatusPacket from "./impl/StatusPacket";
 import type Packet from "./Packet";
 import PacketParser from "./PacketParser";
 import io from "socket.io-client";
-import dotenv from 'dotenv';
+// import dotenv from 'dotenv';
 
 // Load environment variables
-dotenv.config();
+// dotenv.config();
 
 const SERVER_URL = process.env.SERVER_URL || 'http://localhost:8080';
 const RECONNECT_ATTEMPTS = process.env.SOCKET_RECONNECT_ATTEMPTS ? parseInt(process.env.SOCKET_RECONNECT_ATTEMPTS) : 10;
@@ -16,7 +16,7 @@ const RECONNECT_DELAY = process.env.SOCKET_RECONNECT_DELAY ? parseInt(process.en
 export default class PacketManager {
     private SOCKET: SocketIOClient.Socket | undefined;
     private connected = false;
-    private intervalId: NodeJS.Timer | undefined;
+    private intervalId: number | undefined;
     private static instance: PacketManager;
     private reconnectAttempts = 0;
 
