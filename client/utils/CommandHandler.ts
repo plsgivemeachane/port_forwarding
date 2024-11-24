@@ -81,7 +81,7 @@ export class CommandHandler {
             const normalizedProtocol = CommandHandler.normalizeProtocol(protocol as Protocol);
 
             // Log the command execution
-            logger.info(`Executing command: ${action} ${normalizedProtocol} port ${port}`);
+            // logger.info(`Executing command: ${action} ${normalizedProtocol} port ${port}`);
             
             // Here you would typically call your port forwarding logic
             // TODO: Integrate with actual port forwarding implementation

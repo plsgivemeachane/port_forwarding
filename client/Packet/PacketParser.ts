@@ -1,5 +1,6 @@
 import PingPacket from "./impl/PingPacket";
 import SForwardPacket from "./impl/SForwardPacket";
+import SPortPacket from "./impl/SPortPacket";
 import StatusPacket from "./impl/StatusPacket";
 import SysInfoPacket from "./impl/SysInfoPacket";
 import type { RawPacket } from "./Packet";
@@ -8,7 +9,8 @@ const PACKET_ID_MAP = {
     1: SysInfoPacket,
     2: PingPacket,
     3: SForwardPacket,
-    4: StatusPacket
+    4: StatusPacket,
+    6: SPortPacket
 } as const;
 
 type PacketId = keyof typeof PACKET_ID_MAP;

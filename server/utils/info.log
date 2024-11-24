@@ -1518,3 +1518,158 @@
 <2024-11-24 22:43:18> [info]: Server hostname: 127.0.0.1
 <2024-11-24 22:43:18> [info]: [Tunnel] Port allocated for connection: 10000
 <2024-11-24 22:43:18> [info]: Forwarding listening on port 10000
+<2024-11-24 23:14:38> [info]: Registered packet id: 1
+<2024-11-24 23:14:38> [info]: Registered packet id: 2
+<2024-11-24 23:14:38> [info]: Registered packet id: 4
+<2024-11-24 23:14:38> [info]: Registered packet id: 5
+<2024-11-24 23:14:38> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 23:14:56> [info]: Client connected: Krb_Tfyjo7anKERSAAAB
+<2024-11-24 23:15:02> [info]: Reserved port for Krb_Tfyjo7anKERSAAAB : 8000
+<2024-11-24 23:15:02> [info]: Server setup:
+<2024-11-24 23:15:02> [info]: Base port: 10000
+<2024-11-24 23:15:02> [info]: Server hostname: 127.0.0.1
+<2024-11-24 23:15:02> [info]: [Tunnel] Port allocated for connection: 10000
+<2024-11-24 23:15:02> [info]: Forwarding listening on port 10000
+<2024-11-24 23:15:02> [warn]: Client disconnected: Krb_Tfyjo7anKERSAAAB
+<2024-11-24 23:15:25> [info]: Client connected: KxqsItOWbedS-nXLAAAD
+<2024-11-24 23:15:35> [info]: Reserved port for KxqsItOWbedS-nXLAAAD : 3000
+<2024-11-24 23:15:35> [info]: [Tunnel] Port allocated for connection: 10001
+<2024-11-24 23:15:35> [info]: Forwarding listening on port 10001
+<2024-11-24 23:17:12> [info]: Registered packet id: 1
+<2024-11-24 23:17:12> [info]: Registered packet id: 2
+<2024-11-24 23:17:12> [info]: Registered packet id: 4
+<2024-11-24 23:17:12> [info]: Registered packet id: 5
+<2024-11-24 23:17:12> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 23:17:13> [info]: Client connected: 1yQAlw8bCD-xBQzHAAAB
+<2024-11-24 23:17:13> [info]: Client connected: Qy3lHVVvpq5aNAd-AAAD
+<2024-11-24 23:17:14> [warn]: Client disconnected: Qy3lHVVvpq5aNAd-AAAD
+<2024-11-24 23:17:14> [warn]: Client disconnected: 1yQAlw8bCD-xBQzHAAAB
+<2024-11-24 23:17:17> [info]: Client connected: T7D61PNo02NP_7mXAAAF
+<2024-11-24 23:17:37> [info]: Registered packet id: 1
+<2024-11-24 23:17:37> [info]: Registered packet id: 2
+<2024-11-24 23:17:37> [info]: Registered packet id: 4
+<2024-11-24 23:17:37> [info]: Registered packet id: 5
+<2024-11-24 23:17:37> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 23:17:40> [info]: Client connected: IZuoSoSflS9Cf7PsAAAB
+<2024-11-24 23:17:44> [info]: Reserved port for IZuoSoSflS9Cf7PsAAAB : 8000
+<2024-11-24 23:17:44> [info]: Server setup:
+<2024-11-24 23:17:44> [info]: Base port: 10000
+<2024-11-24 23:17:44> [info]: Server hostname: 127.0.0.1
+<2024-11-24 23:17:44> [info]: [Tunnel] Port allocated for connection: 10000
+<2024-11-24 23:17:44> [info]: Forwarding listening on port 10000
+<2024-11-24 23:17:47> [warn]: Client disconnected: IZuoSoSflS9Cf7PsAAAB
+<2024-11-24 23:17:47> [info]: [Tunnel] Closing port 8000 for client IZuoSoSflS9Cf7PsAAAB
+<2024-11-24 23:20:30> [info]: Registered packet id: 1
+<2024-11-24 23:20:30> [info]: Registered packet id: 2
+<2024-11-24 23:20:30> [info]: Registered packet id: 4
+<2024-11-24 23:20:30> [info]: Registered packet id: 5
+<2024-11-24 23:20:30> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 23:20:34> [info]: Client connected: vG3JIm516CwC2bduAAAB
+<2024-11-24 23:20:39> [info]: Reserved port for vG3JIm516CwC2bduAAAB : 8000
+<2024-11-24 23:20:39> [info]: Server setup:
+<2024-11-24 23:20:39> [info]: Base port: 10000
+<2024-11-24 23:20:39> [info]: Server hostname: 127.0.0.1
+<2024-11-24 23:20:39> [info]: [Tunnel] Port allocated for connection: 10000
+<2024-11-24 23:20:39> [info]: Forwarding listening on port 10000
+<2024-11-24 23:20:42> [warn]: Client disconnected: vG3JIm516CwC2bduAAAB
+<2024-11-24 23:20:42> [info]: [Tunnel] Closing port 8000 for client vG3JIm516CwC2bduAAAB
+<2024-11-24 23:20:47> [info]: Client connected: yr6BOe5fc1UHlFDvAAAD
+<2024-11-24 23:20:51> [info]: Reserved port for yr6BOe5fc1UHlFDvAAAD : 8000
+<2024-11-24 23:20:51> [info]: [Tunnel] Port allocated for connection: 10001
+<2024-11-24 23:20:51> [info]: Forwarding listening on port 10001
+<2024-11-24 23:21:04> [warn]: Client disconnected: yr6BOe5fc1UHlFDvAAAD
+<2024-11-24 23:21:04> [info]: [Tunnel] Closing port 8000 for client yr6BOe5fc1UHlFDvAAAD
+<2024-11-24 23:21:09> [info]: Registered packet id: 1
+<2024-11-24 23:21:09> [info]: Registered packet id: 2
+<2024-11-24 23:21:09> [info]: Registered packet id: 4
+<2024-11-24 23:21:09> [info]: Registered packet id: 5
+<2024-11-24 23:21:09> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 23:21:12> [info]: Client connected: 8CoPGgy6eBNTJy8hAAAB
+<2024-11-24 23:21:17> [info]: Reserved port for 8CoPGgy6eBNTJy8hAAAB : 8000
+<2024-11-24 23:21:17> [info]: Server setup:
+<2024-11-24 23:21:17> [info]: Base port: 10000
+<2024-11-24 23:21:17> [info]: Server hostname: 127.0.0.1
+<2024-11-24 23:21:17> [info]: [Tunnel] Port allocated for connection: 10000
+<2024-11-24 23:21:17> [info]: Forwarding listening on port 10000
+<2024-11-24 23:21:19> [warn]: Client disconnected: 8CoPGgy6eBNTJy8hAAAB
+<2024-11-24 23:21:19> [info]: [Tunnel] Closing port 8000 for client 8CoPGgy6eBNTJy8hAAAB
+<2024-11-24 23:21:22> [info]: Client connected: u8Bq6qoNJqE7uhnhAAAD
+<2024-11-24 23:21:28> [info]: Reserved port for u8Bq6qoNJqE7uhnhAAAD : 8000
+<2024-11-24 23:21:28> [info]: [Tunnel] Port allocated for connection: 10001
+<2024-11-24 23:21:28> [info]: Forwarding listening on port 10001
+<2024-11-24 23:21:30> [warn]: Client disconnected: u8Bq6qoNJqE7uhnhAAAD
+<2024-11-24 23:21:30> [info]: [Tunnel] Closing port 8000 for client u8Bq6qoNJqE7uhnhAAAD
+<2024-11-24 23:22:39> [info]: Registered packet id: 1
+<2024-11-24 23:22:39> [info]: Registered packet id: 2
+<2024-11-24 23:22:39> [info]: Registered packet id: 4
+<2024-11-24 23:22:39> [info]: Registered packet id: 5
+<2024-11-24 23:22:39> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 23:22:41> [info]: Client connected: 3eNJzVp8mpL7_ZvlAAAB
+<2024-11-24 23:22:51> [warn]: Client disconnected: 3eNJzVp8mpL7_ZvlAAAB
+<2024-11-24 23:22:51> [info]: Server setup:
+<2024-11-24 23:22:51> [info]: Base port: 10000
+<2024-11-24 23:22:51> [info]: Server hostname: 127.0.0.1
+<2024-11-24 23:24:25> [info]: Registered packet id: 1
+<2024-11-24 23:24:25> [info]: Registered packet id: 2
+<2024-11-24 23:24:25> [info]: Registered packet id: 4
+<2024-11-24 23:24:25> [info]: Registered packet id: 5
+<2024-11-24 23:24:25> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 23:24:26> [info]: Client connected: eOuI_oa2E8gExzuqAAAB
+<2024-11-24 23:24:31> [info]: Reserved port for eOuI_oa2E8gExzuqAAAB : 8000
+<2024-11-24 23:24:31> [info]: Server setup:
+<2024-11-24 23:24:31> [info]: Base port: 10000
+<2024-11-24 23:24:31> [info]: Server hostname: 127.0.0.1
+<2024-11-24 23:24:31> [info]: [Tunnel] Port allocated for connection: 10000
+<2024-11-24 23:24:31> [info]: Forwarding listening on port 10000
+<2024-11-24 23:24:34> [warn]: Client disconnected: eOuI_oa2E8gExzuqAAAB
+<2024-11-24 23:24:34> [info]: [Tunnel] Closing port 8000 for client eOuI_oa2E8gExzuqAAAB
+<2024-11-24 23:24:34> [info]: [Tunnel] Closed port 8000
+<2024-11-24 23:24:49> [info]: Registered packet id: 1
+<2024-11-24 23:24:49> [info]: Registered packet id: 2
+<2024-11-24 23:24:49> [info]: Registered packet id: 4
+<2024-11-24 23:24:49> [info]: Registered packet id: 5
+<2024-11-24 23:24:49> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 23:24:50> [info]: Client connected: 1OeQipH1buuDGYgeAAAB
+<2024-11-24 23:24:55> [info]: Reserved port for 1OeQipH1buuDGYgeAAAB : 8000
+<2024-11-24 23:24:55> [info]: Server setup:
+<2024-11-24 23:24:55> [info]: Base port: 10000
+<2024-11-24 23:24:55> [info]: Server hostname: 127.0.0.1
+<2024-11-24 23:24:55> [info]: [Tunnel] Port allocated for connection: 10000
+<2024-11-24 23:24:55> [info]: Forwarding listening on port 10000
+<2024-11-24 23:24:57> [info]: Reserved port for 1OeQipH1buuDGYgeAAAB : 8000
+<2024-11-24 23:24:57> [info]: [Tunnel] Port allocated for connection: 10001
+<2024-11-24 23:24:57> [info]: Forwarding listening on port 10001
+<2024-11-24 23:24:58> [info]: Reserved port for 1OeQipH1buuDGYgeAAAB : 8000
+<2024-11-24 23:24:58> [info]: [Tunnel] Port allocated for connection: 10002
+<2024-11-24 23:24:58> [info]: Forwarding listening on port 10002
+<2024-11-24 23:24:58> [info]: Reserved port for 1OeQipH1buuDGYgeAAAB : 8000
+<2024-11-24 23:24:58> [info]: [Tunnel] Port allocated for connection: 10003
+<2024-11-24 23:24:58> [info]: Forwarding listening on port 10003
+<2024-11-24 23:26:37> [info]: Registered packet id: 1
+<2024-11-24 23:26:37> [info]: Registered packet id: 2
+<2024-11-24 23:26:37> [info]: Registered packet id: 4
+<2024-11-24 23:26:37> [info]: Registered packet id: 5
+<2024-11-24 23:26:37> [info]: Server running at 127.0.0.1:8080
+<2024-11-24 23:26:39> [info]: Client connected: v5h5jAbA72wrNqxsAAAB
+<2024-11-24 23:26:44> [info]: Reserved port for v5h5jAbA72wrNqxsAAAB : 8000
+<2024-11-24 23:26:44> [info]: Server setup:
+<2024-11-24 23:26:44> [info]: Base port: 10000
+<2024-11-24 23:26:44> [info]: Server hostname: 127.0.0.1
+<2024-11-24 23:26:44> [info]: [Tunnel] Port allocated for connection: 10000
+<2024-11-24 23:26:44> [info]: Forwarding listening on port 10000
+<2024-11-24 23:26:45> [info]: Reserved port for v5h5jAbA72wrNqxsAAAB : 8000
+<2024-11-24 23:26:45> [info]: [Tunnel] Already opend port for this client with this socket
+<2024-11-24 23:26:46> [info]: Reserved port for v5h5jAbA72wrNqxsAAAB : 8000
+<2024-11-24 23:26:46> [info]: [Tunnel] Already opend port for this client with this socket
+<2024-11-24 23:26:46> [info]: Reserved port for v5h5jAbA72wrNqxsAAAB : 8000
+<2024-11-24 23:26:46> [info]: [Tunnel] Already opend port for this client with this socket
+<2024-11-24 23:27:03> [warn]: Client disconnected: v5h5jAbA72wrNqxsAAAB
+<2024-11-24 23:27:03> [info]: [Tunnel] Closing port 8000 for client v5h5jAbA72wrNqxsAAAB
+<2024-11-24 23:27:03> [info]: [Tunnel] Closed port 10000
+<2024-11-24 23:27:10> [info]: Client connected: 9Vw6MSiFnv5uVDKQAAAD
+<2024-11-24 23:27:13> [info]: Reserved port for 9Vw6MSiFnv5uVDKQAAAD : 8000
+<2024-11-24 23:27:13> [info]: [Tunnel] Port allocated for connection: 10000
+<2024-11-24 23:27:13> [info]: Forwarding listening on port 10000
+<2024-11-24 23:27:15> [warn]: Client disconnected: 9Vw6MSiFnv5uVDKQAAAD
+<2024-11-24 23:27:15> [info]: [Tunnel] Closing port 8000 for client 9Vw6MSiFnv5uVDKQAAAD
+<2024-11-24 23:27:15> [info]: [Tunnel] Closed port 10000

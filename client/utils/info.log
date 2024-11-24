@@ -881,3 +881,149 @@
 <2024-11-24 22:43:18> [info]: Executing command: open tcp port 8000
 <2024-11-24 22:43:24> [warn]: Disconnected from server: transport close
 <2024-11-24 22:43:24> [info]: Attempting to reconnect (1/10)
+<2024-11-24 22:53:26> [error]: Connection error: xhr poll error
+<2024-11-24 22:53:27> [error]: Connection error: xhr poll error
+<2024-11-24 22:53:31> [error]: Connection error: xhr poll error
+<2024-11-24 22:54:13> [error]: Connection error: xhr poll error
+<2024-11-24 22:54:19> [error]: Connection error: xhr poll error
+<2024-11-24 22:54:42> [info]: Connected to server at http://server.yuzukateam.io.vn:8080
+<2024-11-24 22:54:42> [info]: Command System Ready. Available commands:
+<2024-11-24 22:54:42> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 22:54:42> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 22:54:42> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 22:54:46> [error]: Invalid protocol. Must be one of: tcp, udp, http, https
+<2024-11-24 22:54:51> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:14:56> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:14:57> [info]: Command System Ready. Available commands:
+<2024-11-24 23:14:57> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:14:57> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:14:57> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:15:02> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:15:02> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10000,"fullUrl":"http://127.0.0.1:10000"}}
+<2024-11-24 23:15:25> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:15:26> [info]: Command System Ready. Available commands:
+<2024-11-24 23:15:26> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:15:26> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:15:26> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:15:35> [info]: Executing command: open tcp port 3000
+<2024-11-24 23:15:35> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10001,"fullUrl":"http://127.0.0.1:10001"}}
+<2024-11-24 23:15:35> [info]: Server processed port : 10001
+<2024-11-24 23:15:35> [info]: Full path: http://127.0.0.1:10001
+<2024-11-24 23:17:09> [warn]: Disconnected from server: transport close
+<2024-11-24 23:17:09> [info]: Attempting to reconnect (1/10)
+<2024-11-24 23:17:10> [error]: Connection error: xhr poll error
+<2024-11-24 23:17:11> [error]: Connection error: xhr poll error
+<2024-11-24 23:17:13> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:17:13> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:17:17> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:17:18> [info]: Command System Ready. Available commands:
+<2024-11-24 23:17:18> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:17:18> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:17:18> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:17:33> [warn]: Disconnected from server: transport close
+<2024-11-24 23:17:33> [info]: Attempting to reconnect (1/10)
+<2024-11-24 23:17:34> [error]: Connection error: xhr poll error
+<2024-11-24 23:17:35> [error]: Connection error: xhr poll error
+<2024-11-24 23:17:40> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:17:41> [info]: Command System Ready. Available commands:
+<2024-11-24 23:17:41> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:17:41> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:17:41> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:17:43> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:17:44> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10000,"fullUrl":"http://127.0.0.1:10000"}}
+<2024-11-24 23:17:44> [info]: Server processed port : 10000
+<2024-11-24 23:17:44> [info]: Full path: http://127.0.0.1:10000
+<2024-11-24 23:20:34> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:20:35> [info]: Command System Ready. Available commands:
+<2024-11-24 23:20:35> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:20:35> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:20:35> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:20:39> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:20:39> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10000,"fullUrl":"http://127.0.0.1:10000"}}
+<2024-11-24 23:20:39> [info]: Server processed port : 10000
+<2024-11-24 23:20:39> [info]: Full path: http://127.0.0.1:10000
+<2024-11-24 23:20:47> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:20:48> [info]: Command System Ready. Available commands:
+<2024-11-24 23:20:48> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:20:48> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:20:48> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:20:51> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:20:51> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10001,"fullUrl":"http://127.0.0.1:10001"}}
+<2024-11-24 23:20:51> [info]: Server processed port : 10001
+<2024-11-24 23:20:51> [info]: Full path: http://127.0.0.1:10001
+<2024-11-24 23:21:12> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:21:12> [info]: Command System Ready. Available commands:
+<2024-11-24 23:21:12> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:21:12> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:21:12> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:21:17> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:21:17> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10000,"fullUrl":"http://127.0.0.1:10000"}}
+<2024-11-24 23:21:17> [info]: Server processed port : 10000
+<2024-11-24 23:21:17> [info]: Full path: http://127.0.0.1:10000
+<2024-11-24 23:21:22> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:21:23> [info]: Command System Ready. Available commands:
+<2024-11-24 23:21:23> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:21:23> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:21:23> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:21:25> [error]: Invalid protocol. Must be one of: tcp, udp, http, https
+<2024-11-24 23:21:28> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:21:28> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10001,"fullUrl":"http://127.0.0.1:10001"}}
+<2024-11-24 23:21:28> [info]: Server processed port : 10001
+<2024-11-24 23:21:28> [info]: Full path: http://127.0.0.1:10001
+<2024-11-24 23:22:41> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:22:41> [info]: Command System Ready. Available commands:
+<2024-11-24 23:22:41> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:22:41> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:22:41> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:24:26> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:24:26> [info]: Command System Ready. Available commands:
+<2024-11-24 23:24:26> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:24:26> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:24:26> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:24:31> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:24:31> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10000,"fullUrl":"http://127.0.0.1:10000"}}
+<2024-11-24 23:24:31> [info]: Server processed port : 10000
+<2024-11-24 23:24:31> [info]: Full path: http://127.0.0.1:10000
+<2024-11-24 23:24:50> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:24:51> [info]: Command System Ready. Available commands:
+<2024-11-24 23:24:51> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:24:51> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:24:51> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:24:55> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:24:55> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10000,"fullUrl":"http://127.0.0.1:10000"}}
+<2024-11-24 23:24:55> [info]: Server processed port : 10000
+<2024-11-24 23:24:55> [info]: Full path: http://127.0.0.1:10000
+<2024-11-24 23:24:57> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:24:57> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10001,"fullUrl":"http://127.0.0.1:10001"}}
+<2024-11-24 23:24:57> [info]: Server processed port : 10001
+<2024-11-24 23:24:57> [info]: Full path: http://127.0.0.1:10001
+<2024-11-24 23:24:58> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:24:58> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10002,"fullUrl":"http://127.0.0.1:10002"}}
+<2024-11-24 23:24:58> [info]: Server processed port : 10002
+<2024-11-24 23:24:58> [info]: Full path: http://127.0.0.1:10002
+<2024-11-24 23:24:58> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:24:58> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10003,"fullUrl":"http://127.0.0.1:10003"}}
+<2024-11-24 23:24:58> [info]: Server processed port : 10003
+<2024-11-24 23:24:58> [info]: Full path: http://127.0.0.1:10003
+<2024-11-24 23:26:34> [warn]: Disconnected from server: transport close
+<2024-11-24 23:26:34> [info]: Attempting to reconnect (1/10)
+<2024-11-24 23:26:39> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:26:39> [info]: Command System Ready. Available commands:
+<2024-11-24 23:26:39> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:26:39> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:26:39> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:26:44> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:26:44> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10000,"fullUrl":"http://127.0.0.1:10000"}}
+<2024-11-24 23:26:44> [info]: Server processed port : 10000
+<2024-11-24 23:26:44> [info]: Full path: http://127.0.0.1:10000
+<2024-11-24 23:26:45> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:26:46> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:26:46> [info]: Executing command: open tcp port 8000
+<2024-11-24 23:27:10> [info]: Connected to server at http://localhost:8080
+<2024-11-24 23:27:10> [info]: Command System Ready. Available commands:
+<2024-11-24 23:27:10> [info]: open <tcp/udp/http/https> [port]  - Open a port
+<2024-11-24 23:27:10> [info]: close <tcp/udp/http/https> [port] - Close a port
+<2024-11-24 23:27:10> [info]: Note: http uses port 80 and https uses port 443 by default
+<2024-11-24 23:27:13> [info]: Received Packet from server: {"PACKET_ID":6,"PACKET_DATA":{"externalPort":10000,"fullUrl":"http://127.0.0.1:10000"}}
+<2024-11-24 23:27:13> [info]: Server processed port : 10000
+<2024-11-24 23:27:13> [info]: Full path: http://127.0.0.1:10000

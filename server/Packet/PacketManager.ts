@@ -5,6 +5,7 @@ import Packet from "./Packet";
 import PacketParser from "./PacketParser";
 import Observable from "../utils/Observeable";
 import Subscriber from "../utils/Subscriber";
+import PortForwardingManager from "../port_fowarding/port_forwarding_manger";
 
 export default class PacketManager {
     private sockets: Socket[] = [];
@@ -38,6 +39,9 @@ export default class PacketManager {
 
     private removeSocket(socket: Socket) {
         this.sockets = this.sockets.filter((s) => s.id != socket.id);
+
+        // Try to close all ports open by this client
+        PortForwardingManager.getInstance().removeClient(socket);
     }
 
     public isServerReady(): boolean {

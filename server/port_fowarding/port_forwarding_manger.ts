@@ -5,6 +5,7 @@ import { logger } from "../utils/winston";
 import net from 'net'
 import dotenv from 'dotenv'
 import dns from 'dns/promises'
+import ServerPortPacket from "../Packet/impl/ServerPortPacket";
 
 dotenv.config()
 
@@ -16,8 +17,7 @@ const SERVERHOSTNAME = process.env.SERVERHOSTNAME || "localhost"
 export default class PortForwardingManager {
     private static instance: PortForwardingManager;
     private usagePort: number[] = []
-    private listenersMap: Map<number, net.Server> = new Map()
-    private listener: net.Server | undefined
+    private listenersMap: Map<number, [net.Server, number]> = new Map()
     private clients: Set<[string, number]> = new Set();
 
     private constructor() { 
@@ -47,37 +47,58 @@ export default class PortForwardingManager {
         this.listenersMap.delete(port);
     }
 
-    private async getSubdomainFromConnection(socket: net.Socket): Promise<string | null> {
-        try {
-            const address = socket.remoteAddress;
-            if (!address) return null;
-            
-            // Get reverse DNS (PTR) record
-            const hostnames = await dns.reverse(address);
-            if (!hostnames || hostnames.length === 0) return null;
-            
-            // Extract subdomain from hostname
-            const hostname = hostnames[0];
-            const parts = hostname.split('.');
-            if (parts.length > 2) {
-                return parts[0];
+    private hasClient(socketId: string, internalPort: number): boolean {
+        for (const [existingSocketId, existingPort] of this.clients) {
+            if (existingSocketId === socketId && existingPort === internalPort) {
+                return true;
             }
-            return null;
-        } catch (error) {
-            logger.error(`Failed to get subdomain: ${error}`);
-            return null;
         }
+        return false;
     }
 
+    public removeClient(socket: Socket) {
+        // Find all ports open by this client
+        const ports = Array.from(this.clients).filter(([key, _]) => key === socket.id)
+        // Close all ports
+        ports.forEach(([key, value]) => {
+            logger.info(`[Tunnel] Closing port ${value} for client ${key}`)
+            this.clearListeningPort(value)
+            this.clients.delete([key, value])
+        })
+    }
+
+    private clearListeningPort(port: number) {
+        const val = this.listenersMap.get(port)
+        if(!val) return;
+        const [server, occupiedPort] = val
+        server.close(() => {
+            logger.info(`[Tunnel] Closed port ${occupiedPort}`)
+        })
+        // Free the port
+        this.clearPort(occupiedPort)
+    }
 
     public async processPort(socket: Socket, internalPort: number) {
-        if (this.clients.has([socket.id, internalPort])) {
+        if(this.hasClient(socket.id, internalPort)) {
             // Already opend port for this client with this socket
+            logger.info(`[Tunnel] Already opend port for this client with this socket`);
             return
         }
+
         const freePort = this.getFreePort()
+
+        this.clients.add([socket.id, internalPort])
+
+        // Notify the client
+        const packet = new ServerPortPacket({
+            externalPort: freePort,
+            fullUrl: `http://${SERVERHOSTNAME}:${freePort}`
+        })
+
+        PacketManager.getInstance().sendPacket(socket, packet);
+
         logger.info(`[Tunnel] Port allocated for connection: ${freePort}`);
-        this.listener = net.createServer((clientSocket) => {
+        const server = net.createServer((clientSocket) => {
             logger.info(`[Tunnel] Recived connection from ${clientSocket.remoteAddress}`);
 
             const allowedPort = this.getFreePort()
@@ -121,8 +142,6 @@ export default class PortForwardingManager {
                 this.clearPort(allowedPort);
             });
 
-            this.listenersMap.set(allowedPort, tcpSocket) // Logging
-
             // Cleanup when the initial connection closes
             clientSocket.on('close', () => {
                 logger.info(`[Tunnel] Client connection closed`);
@@ -140,8 +159,10 @@ export default class PortForwardingManager {
             PacketManager.getInstance().sendPacket(socket, portPacket);
         })
 
-        this.listener.listen(freePort, () => {
+        server.listen(freePort, () => {
             logger.info(`Forwarding listening on port ${freePort}`);
         });
+
+        this.listenersMap.set(internalPort, [server, freePort]);
     }
 }
