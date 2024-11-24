@@ -1,6 +1,6 @@
-# Serverless Minecraft
+# Server Port Forwarding for Minecraft Server
 
-A serverless implementation of a Minecraft server that uses Socket.IO for networking and supports dynamic port forwarding.
+A free server. And a client that make localhost port forwarding.
 
 ## 🏗️ Architecture
 
@@ -22,7 +22,6 @@ The project consists of two main components:
 ### Prerequisites
 - Node.js (v14 or higher)
 - TypeScript
-- A Minecraft client
 
 ### Installation
 
@@ -69,8 +68,6 @@ SERVERHOSTNAME=localhost
 
 ### Server Configuration
 - `BASEPORT`: Starting port for dynamic allocation (default: 10000)
-- `INTERNALPORT`: Internal Minecraft server port (default: 25565)
-- `LISTENPORT`: Port for incoming connections (default: 8001)
 - `SERVERHOSTNAME`: Hostname for the server (default: localhost)
 
 ## 🎮 Usage

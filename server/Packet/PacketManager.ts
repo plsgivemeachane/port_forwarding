@@ -79,13 +79,8 @@ export default class PacketManager {
         this.findFreedSocket();
     }
 
-    public sendPacket(packet: Packet<any>) {
-        if(!this.currentSocket) { 
-            logger.warn("No Server connected to send packet");
-            return;
-        }
-
-        this.currentSocket.emit("packet", packet.serialize());
+    public sendPacket(client: Socket, packet: Packet<any>) {
+        client.emit("packet", packet.serialize());
     }
 
     public setReadySocket(socket: Socket) {

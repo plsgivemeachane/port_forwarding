@@ -1,8 +1,11 @@
 import ForwardPacket from "../Packet/impl/ForwardPacket";
+import { Socket } from "socket.io";
 import PacketManager from "../Packet/PacketManager";
 import { logger } from "../utils/winston";
 import net from 'net'
 import dotenv from 'dotenv'
+import dns from 'dns/promises'
+
 dotenv.config()
 
 const BASEPORT = process.env.BASEPORT ? parseInt(process.env.BASEPORT) : 10000
@@ -15,12 +18,11 @@ export default class PortForwardingManager {
     private usagePort: number[] = []
     private listenersMap: Map<number, net.Server> = new Map()
     private listener: net.Server | undefined
+    private clients: Set<[string, number]> = new Set();
 
     private constructor() { 
         logger.info("Server setup:")
         logger.info(`Base port: ${BASEPORT}`)
-        logger.info(`Internal port: ${INTERNALPORT}`)
-        logger.info(`Listen port: ${LISTENPORT}`)
         logger.info(`Server hostname: ${SERVERHOSTNAME}`)
     }
 
@@ -45,18 +47,38 @@ export default class PortForwardingManager {
         this.listenersMap.delete(port);
     }
 
-    public async start() {
-        // Listen on 
+    private async getSubdomainFromConnection(socket: net.Socket): Promise<string | null> {
+        try {
+            const address = socket.remoteAddress;
+            if (!address) return null;
+            
+            // Get reverse DNS (PTR) record
+            const hostnames = await dns.reverse(address);
+            if (!hostnames || hostnames.length === 0) return null;
+            
+            // Extract subdomain from hostname
+            const hostname = hostnames[0];
+            const parts = hostname.split('.');
+            if (parts.length > 2) {
+                return parts[0];
+            }
+            return null;
+        } catch (error) {
+            logger.error(`Failed to get subdomain: ${error}`);
+            return null;
+        }
+    }
+
+
+    public async processPort(socket: Socket, internalPort: number) {
+        if (this.clients.has([socket.id, internalPort])) {
+            // Already opend port for this client with this socket
+            return
+        }
+        const freePort = this.getFreePort()
+        logger.info(`[Tunnel] Port allocated for connection: ${freePort}`);
         this.listener = net.createServer((clientSocket) => {
             logger.info(`[Tunnel] Recived connection from ${clientSocket.remoteAddress}`);
-
-            // Check if there are any clients
-            if(!PacketManager.getInstance().isServerReady()) {
-                // Close this connection
-                logger.warn(`[Tunnel] Cannot find any client`)
-                clientSocket.end();
-                return;
-            }
 
             const allowedPort = this.getFreePort()
             logger.info(`[Tunnel] Port allocated: ${allowedPort}`);
@@ -64,13 +86,13 @@ export default class PortForwardingManager {
             let tcpSocket = net.createServer((forwardSocket) => {
                 logger.info(`[Tunnel] Connection established on port ${allowedPort}`);
                 forwardSocket.setKeepAlive(true);
-                clientSocket.setKeepAlive(true);
+                // clientSocket.setKeepAlive(true);
                 forwardSocket.setTimeout(0);
-                clientSocket.setTimeout(0);
+                // clientSocket.setTimeout(0);
 
                 // Piping
                 forwardSocket.pipe(clientSocket, { end: false });
-                clientSocket.pipe(forwardSocket, { end: false });
+                clientSocket.pipe(forwardSocket, { end: true });
 
                 clientSocket.on('end', () => {
                     forwardSocket.end();
@@ -99,7 +121,7 @@ export default class PortForwardingManager {
                 this.clearPort(allowedPort);
             });
 
-            this.listenersMap.set(allowedPort, tcpSocket)
+            this.listenersMap.set(allowedPort, tcpSocket) // Logging
 
             // Cleanup when the initial connection closes
             clientSocket.on('close', () => {
@@ -112,14 +134,14 @@ export default class PortForwardingManager {
             const portPacket = new ForwardPacket({
                 hostname: SERVERHOSTNAME,
                 externalPort: allowedPort,
-                internalPort: INTERNALPORT
+                internalPort: internalPort
             });
             
-            PacketManager.getInstance().sendPacket(portPacket);
+            PacketManager.getInstance().sendPacket(socket, portPacket);
         })
 
-        this.listener.listen(LISTENPORT, () => {
-            logger.info(`Forwarding listening on port ${LISTENPORT}`);
+        this.listener.listen(freePort, () => {
+            logger.info(`Forwarding listening on port ${freePort}`);
         });
     }
 }
